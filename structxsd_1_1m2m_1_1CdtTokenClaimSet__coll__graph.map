@@ -1,0 +1,13 @@
+<map id="xsd::m2m::CdtTokenClaimSet" name="xsd::m2m::CdtTokenClaimSet">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:tokenClaimSet." alt="" coords="612,228,825,255"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="277,5,441,32"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="275,57,443,98"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,260,189,287"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,122,480,163"/>
+<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="255,187,464,229"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="259,253,459,294"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="268,318,451,359"/>
+<area shape="rect" id="node10" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="275,383,443,425"/>
+<area shape="rect" id="node11" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="267,449,451,490"/>
+</map>

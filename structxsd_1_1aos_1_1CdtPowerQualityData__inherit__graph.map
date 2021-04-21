@@ -1,0 +1,5 @@
+<map id="xsd::aos::CdtPowerQualityData" name="xsd::aos::CdtPowerQualityData">
+<area shape="rect" id="node1" title="Class representation of xsd type aos:powerQualityData." alt="" coords="5,155,229,181"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="35,80,199,107"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="64,5,171,32"/>
+</map>

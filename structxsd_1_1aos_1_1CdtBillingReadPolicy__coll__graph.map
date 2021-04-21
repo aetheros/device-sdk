@@ -1,0 +1,13 @@
+<map id="xsd::aos::CdtBillingReadPolicy" name="xsd::aos::CdtBillingReadPolicy">
+<area shape="rect" id="node1" title="Class representation of xsd type aos:billingReadPolicy." alt="" coords="951,339,1131,381"/>
+<area shape="rect" id="node2" href="$structxsd_1_1aos_1_1CdtPolicy.html" title="Class representation of xsd type aos:policy." alt="" coords="675,129,820,156"/>
+<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="257,5,421,32"/>
+<area shape="rect" id="node4" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,57,439,98"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,195,189,221"/>
+<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="253,122,425,163"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="245,187,433,229"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="247,263,431,305"/>
+<area shape="rect" id="node11" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="463,359,633,401"/>
+<area shape="rect" id="node10" href="$structxsd_1_1aos_1_1CdtPolicyClass.html" title="Class details of policy." alt="" coords="657,439,837,465"/>
+</map>

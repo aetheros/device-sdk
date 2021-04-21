@@ -1,0 +1,10 @@
+<map id="xsd::m2m::CdtAccessControlRule" name="xsd::m2m::CdtAccessControlRule">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:accessControlRule." alt="" coords="720,137,959,164"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="264,5,428,32"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="246,57,446,98"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,192,189,219"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,123,453,179"/>
+<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="257,203,435,245"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="254,269,438,310"/>
+</map>

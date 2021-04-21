@@ -1,0 +1,7 @@
+<map id="xsd::xs::ConcreteSimpleContentType&lt; T &gt;" name="xsd::xs::ConcreteSimpleContentType&lt; T &gt;">
+<area shape="rect" id="node1" title="The concrete class that binds SimpleContentType to the type it represents." alt="" coords="63,229,294,271"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1SimpleContentType.html" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="5,155,208,181"/>
+<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="25,80,189,107"/>
+<area shape="rect" id="node4" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="53,5,160,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="233,155,271,181"/>
+</map>

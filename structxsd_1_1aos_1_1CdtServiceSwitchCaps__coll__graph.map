@@ -1,0 +1,7 @@
+<map id="xsd::aos::CdtServiceSwitchCaps" name="xsd::aos::CdtServiceSwitchCaps">
+<area shape="rect" id="node1" title="Class representation of xsd type aos:serviceSwitchCaps." alt="" coords="71,200,301,227"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="5,89,169,115"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="34,5,141,32"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="194,81,378,123"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="194,5,378,32"/>
+</map>

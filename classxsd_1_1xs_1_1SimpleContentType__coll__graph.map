@@ -1,0 +1,5 @@
+<map id="xsd::xs::SimpleContentType" name="xsd::xs::SimpleContentType">
+<area shape="rect" id="node1" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="5,155,208,181"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="25,80,189,107"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="53,5,160,32"/>
+</map>

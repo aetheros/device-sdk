@@ -1,0 +1,13 @@
+<map id="xsd::m2m::CdtFilterCriteria" name="xsd::m2m::CdtFilterCriteria">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:filterCriteria." alt="" coords="653,302,852,329"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="276,8,440,34"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,8,151,34"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="247,88,469,130"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,325,189,352"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="258,187,458,228"/>
+<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,252,477,294"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="274,318,442,359"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="267,383,449,424"/>
+<area shape="rect" id="node10" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="274,448,442,490"/>
+<area shape="rect" id="node11" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="259,520,457,562"/>
+</map>

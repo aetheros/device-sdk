@@ -1,0 +1,6 @@
+<map id="xsd::aos::CdtRegisterSnapshotReadPolicy" name="xsd::aos::CdtRegisterSnapshotReadPolicy">
+<area shape="rect" id="node1" title="Class representation of xsd type aos:registerSnapshotReadPolicy." alt="" coords="5,229,225,271"/>
+<area shape="rect" id="node2" href="$structxsd_1_1aos_1_1CdtPolicy.html" title="Class representation of xsd type aos:policy." alt="" coords="43,155,188,181"/>
+<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="33,80,197,107"/>
+<area shape="rect" id="node4" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="62,5,169,32"/>
+</map>

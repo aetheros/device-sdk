@@ -1,0 +1,12 @@
+<map id="xsd::m2m::CdtAggregatedRequest::Request" name="xsd::m2m::CdtAggregatedRequest::Request">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:aggregatedRequest.request." alt="" coords="636,187,881,229"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="274,5,438,32"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,57,473,98"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,243,189,269"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="272,122,440,163"/>
+<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="272,187,440,229"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="268,253,444,294"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,318,473,359"/>
+<area shape="rect" id="node10" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="264,383,448,425"/>
+</map>

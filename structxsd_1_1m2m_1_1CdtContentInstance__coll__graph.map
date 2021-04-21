@@ -1,0 +1,23 @@
+<map id="xsd::m2m::CdtContentInstance" name="xsd::m2m::CdtContentInstance">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:contentInstance." alt="" coords="1452,672,1675,699"/>
+<area shape="rect" id="node2" href="$structxsd_1_1m2m_1_1CdtAnnounceableSubordinateResource.html" title="Class representation of xsd type m2m:announceableSubordinateResource." alt="" coords="1128,629,1337,670"/>
+<area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1CdtResource.html" title="Class representation of xsd type m2m:resource." alt="" coords="723,380,900,407"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="269,48,433,75"/>
+<area shape="rect" id="node5" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,48,151,75"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="259,331,442,373"/>
+<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,493,189,520"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="259,527,442,569"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="267,397,435,438"/>
+<area shape="rect" id="node10" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="267,462,435,503"/>
+<area shape="rect" id="node11" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,593,463,634"/>
+<area shape="rect" id="node12" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="267,266,435,307"/>
+<area shape="rect" id="node13" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="259,201,443,242"/>
+<area shape="rect" id="node14" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="491,638,684,679"/>
+<area shape="rect" id="node15" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="503,691,671,747"/>
+<area shape="rect" id="node16" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="935,733,1103,774"/>
+<area shape="rect" id="node17" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="712,811,911,853"/>
+<area shape="rect" id="node19" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="935,854,1103,895"/>
+<area shape="rect" id="node20" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="487,67,688,109"/>
+<area shape="rect" id="node21" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="727,142,895,183"/>
+<area shape="rect" id="node18" href="$structxsd_1_1m2m_1_1CdtResourceClass.html" title="Class information about a OneM2M Resource." alt="" coords="1127,905,1339,932"/>
+</map>
