@@ -1,6 +1,0 @@
-<map id="xsd::aos::CdtClockSetPolicy" name="xsd::aos::CdtClockSetPolicy">
-<area shape="rect" id="node1" title="Class representation of xsd type aos:clockSetPolicy." alt="" coords="5,229,208,256"/>
-<area shape="rect" id="node2" href="$structxsd_1_1aos_1_1CdtPolicy.html" title="Class representation of xsd type aos:policy." alt="" coords="34,155,179,181"/>
-<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="25,80,189,107"/>
-<area shape="rect" id="node4" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="53,5,160,32"/>
-</map>

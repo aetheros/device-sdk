@@ -1,15 +1,15 @@
 <map id="xsd::xs::SimpleType&lt; T, Restrictions &gt;" name="xsd::xs::SimpleType&lt; T, Restrictions &gt;">
-<area shape="rect" id="node1" title="class template for xs:simpleType classes" alt="" coords="92,271,243,313"/>
-<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="291,23,497,65"/>
-<area shape="rect" id="node6" href="$structxsd_1_1m2m_1_1CdtDeviceID.html" title="Class representation of deviceID." alt="" coords="306,89,482,130"/>
-<area shape="rect" id="node7" href="$structxsd_1_1m2m_1_1CdtExternalID.html" title="Class representation of externalID." alt="" coords="301,154,487,195"/>
-<area shape="rect" id="node8" href="$structxsd_1_1m2m_1_1CdtID.html" title="Class representation of ID." alt="" coords="295,220,493,247"/>
-<area shape="rect" id="node9" href="$structxsd_1_1m2m_1_1CdtIpv4.html" title="Class representation of ipv4." alt="" coords="316,271,472,313"/>
-<area shape="rect" id="node10" href="$structxsd_1_1m2m_1_1CdtIpv6.html" title="Class representation of ipv6." alt="" coords="316,337,472,378"/>
-<area shape="rect" id="node11" href="$structxsd_1_1m2m_1_1CdtNhURI.html" title="Class representation of nhURI." alt="" coords="315,402,473,443"/>
-<area shape="rect" id="node12" href="$structxsd_1_1m2m_1_1CdtNodeID.html" title="Class representation of nodeID." alt="" coords="311,467,477,509"/>
-<area shape="rect" id="node13" href="$structxsd_1_1m2m_1_1CdtRequestID.html" title="Class representation of requestID." alt="" coords="302,533,486,574"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,279,44,305"/>
-<area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1CdtChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="545,5,777,32"/>
-<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1CdtMgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="559,56,763,83"/>
+<area shape="rect" id="node1" title="class template for xs:simpleType classes" alt="" coords="92,263,243,305"/>
+<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="293,23,499,65"/>
+<area shape="rect" id="node6" href="$structxsd_1_1m2m_1_1DeviceID.html" title="Class representation of xsd type m2m:deviceID." alt="" coords="319,89,473,130"/>
+<area shape="rect" id="node7" href="$structxsd_1_1m2m_1_1ExternalID.html" title="Class representation of xsd type m2m:externalID." alt="" coords="315,154,477,195"/>
+<area shape="rect" id="node8" href="$structxsd_1_1m2m_1_1ID.html" title="Class representation of xsd type m2m:ID." alt="" coords="307,220,485,247"/>
+<area shape="rect" id="node9" href="$structxsd_1_1m2m_1_1Ipv4.html" title="Class representation of xsd type m2m:ipv4." alt="" coords="301,271,491,297"/>
+<area shape="rect" id="node10" href="$structxsd_1_1m2m_1_1Ipv6.html" title="Class representation of xsd type m2m:ipv6." alt="" coords="301,321,491,348"/>
+<area shape="rect" id="node11" href="$structxsd_1_1m2m_1_1NhURI.html" title="Class representation of xsd type m2m:nhURI." alt="" coords="294,372,498,399"/>
+<area shape="rect" id="node12" href="$structxsd_1_1m2m_1_1NodeID.html" title="Class representation of xsd type m2m:nodeID." alt="" coords="291,423,501,449"/>
+<area shape="rect" id="node13" href="$structxsd_1_1m2m_1_1RequestID.html" title="Class representation of xsd type m2m:requestID." alt="" coords="315,474,477,515"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,271,44,297"/>
+<area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="549,5,760,32"/>
+<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="563,56,746,83"/>
 </map>

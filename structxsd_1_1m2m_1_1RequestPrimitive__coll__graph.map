@@ -1,0 +1,21 @@
+<map id="xsd::m2m::RequestPrimitive" name="xsd::m2m::RequestPrimitive">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:requestPrimitive." alt="" coords="703,503,909,529"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="268,5,432,32"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="266,57,434,98"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,529,189,556"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="266,122,434,163"/>
+<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="266,187,434,229"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="243,253,457,294"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="258,318,442,359"/>
+<area shape="rect" id="node10" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="250,383,450,425"/>
+<area shape="rect" id="node11" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="266,449,434,490"/>
+<area shape="rect" id="node12" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="266,515,434,571"/>
+<area shape="rect" id="node13" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,595,461,637"/>
+<area shape="rect" id="node14" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="266,661,434,702"/>
+<area shape="rect" id="node15" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="258,726,442,767"/>
+<area shape="rect" id="node16" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="261,791,439,833"/>
+<area shape="rect" id="node17" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="266,857,434,913"/>
+<area shape="rect" id="node18" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,938,461,979"/>
+<area shape="rect" id="node19" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="258,1003,442,1045"/>
+</map>

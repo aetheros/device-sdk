@@ -1,5 +1,0 @@
-<map id="xsd::aos::CdtTimeSchedule" name="xsd::aos::CdtTimeSchedule">
-<area shape="rect" id="node1" title="Class representation of xsd type aos:timeSchedule." alt="" coords="5,155,204,181"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="23,80,187,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="51,5,158,32"/>
-</map>

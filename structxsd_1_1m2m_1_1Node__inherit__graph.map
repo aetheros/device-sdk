@@ -1,0 +1,8 @@
+<map id="xsd::m2m::Node" name="xsd::m2m::Node">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:node." alt="" coords="64,379,193,405"/>
+<area shape="rect" id="node2" href="$structxsd_1_1m2m_1_1AnnounceableResource.html" title="Class representation of xsd type m2m:announceableResource." alt="" coords="5,304,252,331"/>
+<area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1RegularResource.html" title="Class representation of xsd type m2m:regularResource." alt="" coords="26,229,231,256"/>
+<area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource." alt="" coords="51,155,206,181"/>
+<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="47,80,211,107"/>
+<area shape="rect" id="node6" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="75,5,182,32"/>
+</map>

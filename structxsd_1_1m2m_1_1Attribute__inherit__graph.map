@@ -1,0 +1,5 @@
+<map id="xsd::m2m::Attribute" name="xsd::m2m::Attribute">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:attribute." alt="" coords="11,155,163,181"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="5,80,169,107"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="34,5,141,32"/>
+</map>

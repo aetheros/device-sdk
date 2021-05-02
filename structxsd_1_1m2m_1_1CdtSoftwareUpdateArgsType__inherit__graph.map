@@ -1,5 +1,0 @@
-<map id="xsd::m2m::CdtSoftwareUpdateArgsType" name="xsd::m2m::CdtSoftwareUpdateArgsType">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:softwareUpdateArgsType." alt="" coords="5,155,227,196"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="34,80,198,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="63,5,169,32"/>
-</map>

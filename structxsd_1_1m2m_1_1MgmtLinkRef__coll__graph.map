@@ -1,0 +1,12 @@
+<map id="xsd::m2m::MgmtLinkRef" name="xsd::m2m::MgmtLinkRef">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="947,78,1129,105"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="627,5,857,47"/>
+<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1SimpleContentType.html" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="375,7,577,34"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="161,7,325,34"/>
+<area shape="rect" id="node5" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,7,112,34"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1SimpleType.html" title="class template for xs:simpleType classes" alt="" coords="429,58,523,85"/>
+<area shape="rect" id="node7" title=" " alt="" coords="224,58,263,85"/>
+<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="651,71,833,112"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="384,113,568,139"/>
+<area shape="rect" id="node10" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="655,137,829,193"/>
+</map>

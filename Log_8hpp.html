@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AOS SDK: libaos/inc/aos/Log.hpp File Reference</title>
+<title>AOS Device SDK: libaos/inc/aos/Log.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">AOS SDK
+   <div id="projectname">AOS Device SDK
    </div>
   </td>
  </tr>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_8869e0ebec2fa98b60ff7a49bb5d8a2b.html">libaos</a></li><li class="navelem"><a class="el" href="dir_def14dd1325d0ee826b230ac54da432f.html">inc</a></li><li class="navelem"><a class="el" href="dir_fc78347c59651ff64c3f1081c7837e96.html">aos</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_5f3db811bb069519970fc1bee66ec4e9.html">libaos</a></li><li class="navelem"><a class="el" href="dir_f69bb0bbcb2ae57608a55051c0cd832c.html">inc</a></li><li class="navelem"><a class="el" href="dir_e41bad2418ca40626b9b812cc974ffa2.html">aos</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -76,24 +76,7 @@ $(function() {
 
 <p>Logging functions and macros.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;aos/Common.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="LogLevel_8hpp_source.html">aos/LogLevel.hpp</a>&gt;</code><br />
-<code>#include &lt;sstream&gt;</code><br />
-<code>#include &lt;cstdarg&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for Log.hpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="Log_8hpp__incl.png" border="0" usemap="#libaos_2inc_2aos_2Log_8hpp" alt=""/></div>
-<map name="libaos_2inc_2aos_2Log_8hpp" id="libaos_2inc_2aos_2Log_8hpp">
-<area shape="rect" title="Logging functions and macros." alt="" coords="159,5,326,32"/>
-<area shape="rect" href="libaos_2inc_2aos_2Common_8hpp_source.html" title=" " alt="" coords="5,155,141,181"/>
-<area shape="rect" href="LogLevel_8hpp.html" title="Logging Levels." alt="" coords="111,80,246,107"/>
-<area shape="rect" title=" " alt="" coords="271,80,345,107"/>
-<area shape="rect" title=" " alt="" coords="370,80,441,107"/>
-<area shape="rect" title=" " alt="" coords="165,155,224,181"/>
-</map>
-</div>
-</div>
+
 <p><a href="Log_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -104,6 +87,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:adc7d815beb4f74e67872ca7388ccbefc"><td class="memItemLeft" align="right" valign="top"><a id="adc7d815beb4f74e67872ca7388ccbefc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>AOS_LOG_MACROS_DEFINED_</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:adc7d815beb4f74e67872ca7388ccbefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa67e394e3ef95cae9b37683e2e26b51d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Log_8hpp.html#aa67e394e3ef95cae9b37683e2e26b51d">setLoggingLevel</a>(level)</td></tr>
 <tr class="memdesc:aa67e394e3ef95cae9b37683e2e26b51d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current logging level.  <a href="Log_8hpp.html#aa67e394e3ef95cae9b37683e2e26b51d">More...</a><br /></td></tr>
 <tr class="separator:aa67e394e3ef95cae9b37683e2e26b51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,6 +228,8 @@ LogLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
   </table>
   </dd>
 </dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a46">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a17">aos_openfmb_adapter.cpp</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -267,6 +255,8 @@ LogLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
     <tr><td class="paramname">message</td><td>The log message as a C++ stream. </td></tr>
   </table>
   </dd>
+</dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a13">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a11">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>
@@ -347,6 +337,8 @@ LogLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
     <tr><td class="paramname">message</td><td>The log message as a C++ stream. </td></tr>
   </table>
   </dd>
+</dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a10">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a13">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>
@@ -554,6 +546,8 @@ LogLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
   </table>
   </dd>
 </dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a45">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a50">aos_openfmb_adapter.cpp</a>.</dd>
+</dl>
 
 </div>
 </div>
@@ -587,7 +581,7 @@ LogLevel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 </div>
 </div>
 </div><!-- contents -->
-<div class="ttc" id="aLog_8hpp_html_ae7dc548cc0b52b51437330d75a9d9095"><div class="ttname"><a href="Log_8hpp.html#ae7dc548cc0b52b51437330d75a9d9095">LOGLEVELENABLED</a></div><div class="ttdeci">#define LOGLEVELENABLED(level)</div><div class="ttdoc">Check if logging is enabled for a given level.</div><div class="ttdef"><b>Definition:</b> Log.hpp:26</div></div>
+<div class="ttc" id="aLog_8hpp_html_ae7dc548cc0b52b51437330d75a9d9095"><div class="ttname"><a href="Log_8hpp.html#ae7dc548cc0b52b51437330d75a9d9095">LOGLEVELENABLED</a></div><div class="ttdeci">#define LOGLEVELENABLED(level)</div><div class="ttdoc">Check if logging is enabled for a given level.</div><div class="ttdef"><b>Definition:</b> Log.hpp:32</div></div>
 <div class="ttc" id="anamespaceaos_html_a41ba509a3dae76aa420cde29e1c55245"><div class="ttname"><a href="namespaceaos.html#a41ba509a3dae76aa420cde29e1c55245">aos::setLogLevel</a></div><div class="ttdeci">void setLogLevel(const std::string &amp;logLevel) DSO_API</div><div class="ttdoc">Set the current log level with a string argument.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

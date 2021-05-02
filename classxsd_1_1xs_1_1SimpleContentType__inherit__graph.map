@@ -4,6 +4,6 @@
 <area shape="rect" id="node7" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title="The concrete class that binds SimpleContentType to the type it represents." alt="" coords="623,89,853,130"/>
 <area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="160,64,324,91"/>
 <area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,64,112,91"/>
-<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1CdtChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="901,5,1133,32"/>
-<area shape="rect" id="node6" href="$structxsd_1_1m2m_1_1CdtMgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="915,56,1119,83"/>
+<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="901,5,1112,32"/>
+<area shape="rect" id="node6" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="915,56,1098,83"/>
 </map>

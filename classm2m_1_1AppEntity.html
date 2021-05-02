@@ -74,15 +74,18 @@ $(function() {
 <div class="title">m2m::AppEntity Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The main class for representing an AE (ApplicationEntity)  
+ <a href="classm2m_1_1AppEntity.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a4780b5399e3c923440b5cded7292db32"><td class="memItemLeft" align="right" valign="top"><a id="a4780b5399e3c923440b5cded7292db32"></a>
 typedef std::function&lt; void(<a class="el" href="classm2m_1_1Notification.html">Notification</a> notification)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a4780b5399e3c923440b5cded7292db32">NotificationCallback</a></td></tr>
-<tr class="memdesc:a4780b5399e3c923440b5cded7292db32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type for receiving <a class="el" href="classm2m_1_1Notification.html">Notification</a> requests. <br /></td></tr>
+<tr class="memdesc:a4780b5399e3c923440b5cded7292db32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type for receiving <a class="el" href="classm2m_1_1Notification.html" title="A representation of a oneM2M notification received by the AE.">Notification</a> requests. <br /></td></tr>
 <tr class="separator:a4780b5399e3c923440b5cded7292db32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae548df02c8c8c90db42f45789412f26e"><td class="memItemLeft" align="right" valign="top"><a id="ae548df02c8c8c90db42f45789412f26e"></a>
-typedef std::function&lt; void(<a class="el" href="namespacem2m.html#a11291cadee23cbb8cf7a49c7b31a1546">ResponsePrimitive_ptr</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#ae548df02c8c8c90db42f45789412f26e">ResponseCallback</a></td></tr>
+typedef std::function&lt; void(<a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">ResponsePrimitive_ptr</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#ae548df02c8c8c90db42f45789412f26e">ResponseCallback</a></td></tr>
 <tr class="memdesc:ae548df02c8c8c90db42f45789412f26e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type for receiving Responses. <br /></td></tr>
 <tr class="separator:ae548df02c8c8c90db42f45789412f26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -90,7 +93,7 @@ typedef std::function&lt; void(<a class="el" href="namespacem2m.html#a11291cadee
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2cbfce6ee090be327b8b5375ad7a0c9"><td class="memItemLeft" align="right" valign="top"><a id="ac2cbfce6ee090be327b8b5375ad7a0c9"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#ac2cbfce6ee090be327b8b5375ad7a0c9">AppEntity</a> ()</td></tr>
-<tr class="memdesc:ac2cbfce6ee090be327b8b5375ad7a0c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructur. <br /></td></tr>
+<tr class="memdesc:ac2cbfce6ee090be327b8b5375ad7a0c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="separator:ac2cbfce6ee090be327b8b5375ad7a0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a4269d32c3e49a3a00a575ed57f0499"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a1a4269d32c3e49a3a00a575ed57f0499">AppEntity</a> (<a class="el" href="classm2m_1_1AppEntity.html#a4780b5399e3c923440b5cded7292db32">NotificationCallback</a> notificationCallback)</td></tr>
 <tr class="memdesc:a1a4269d32c3e49a3a00a575ed57f0499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classm2m_1_1AppEntity.html#a1a4269d32c3e49a3a00a575ed57f0499">More...</a><br /></td></tr>
@@ -159,7 +162,7 @@ const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a cl
 <tr class="separator:ac4f3d582a374f3b480b641645a27c923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8adef257cd0484d5dd29a8ea801a08dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a8adef257cd0484d5dd29a8ea801a08dd">sendRequest</a> (const <a class="el" href="classm2m_1_1Request.html">Request</a> &amp;request)</td></tr>
 <tr class="separator:a8adef257cd0484d5dd29a8ea801a08dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a417d76dd29df520ad92cf6e48ae4d204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#a11291cadee23cbb8cf7a49c7b31a1546">ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a417d76dd29df520ad92cf6e48ae4d204">getResponse</a> (<a class="el" href="classm2m_1_1Request.html">Request</a> &amp;request)</td></tr>
+<tr class="memitem:a417d76dd29df520ad92cf6e48ae4d204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a417d76dd29df520ad92cf6e48ae4d204">getResponse</a> (<a class="el" href="classm2m_1_1Request.html">Request</a> &amp;request)</td></tr>
 <tr class="separator:a417d76dd29df520ad92cf6e48ae4d204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Activate the AE</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Each of these methods attempts to activate the AE. Activation includes registering an unregistered AE, or updating the POA of a registered AE. If the registration attempt fails, the <a class="el" href="namespacem2m.html#a8cb66fd381448d2c44b74b85823870df">ActivationFailureReason</a> will indicate the reason for the failure. </p>
@@ -179,7 +182,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The main class for representing an AE (ApplicationEntity) </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#_a2">aos_metering_app.cpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#_a2">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#_a2">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1a4269d32c3e49a3a00a575ed57f0499"></a>
@@ -322,7 +325,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
   </table>
   </dd>
 </dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a11">aos_metering_app.cpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a11">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a14">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>
@@ -366,7 +369,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
       </table>
 </div><div class="memdoc">
 <p>Get the last activation failure reason. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="namespacem2m.html#a8cb66fd381448d2c44b74b85823870df">ActivationFailureReason</a> </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a12">aos_metering_app.cpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a12">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a15">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>
@@ -396,7 +399,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacem2m.html#a11291cadee23cbb8cf7a49c7b31a1546">ResponsePrimitive_ptr</a> m2m::AppEntity::getResponse </td>
+          <td class="memname"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">ResponsePrimitive_ptr</a> m2m::AppEntity::getResponse </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classm2m_1_1Request.html">Request</a> &amp;&#160;</td>
           <td class="paramname"><em>request</em></td><td>)</td>
@@ -405,7 +408,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
       </table>
 </div><div class="memdoc">
 <p>Get the response to a request. Wait for and return the response to a request. </p><dl class="section return"><dt>Returns</dt><dd>a ResponsePrimitive shared pointer </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a26">aos_metering_app.cpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a26">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a29">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>
@@ -456,8 +459,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>An initialized <a class="el" href="classm2m_1_1Request.html">Request</a> object. </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a22">aos_metering_app.cpp</a>.</dd>
+<dl class="section return"><dt>Returns</dt><dd>An initialized <a class="el" href="classm2m_1_1Request.html" title="An object representing a oneM2M request from an AE.">Request</a> object. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a22">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a25">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>
@@ -477,8 +480,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Send a request. Send the request defined by the <a class="el" href="classm2m_1_1Request.html">Request</a> object. This function queues the request for transmission and returns immediately. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a25">aos_metering_app.cpp</a>.</dd>
+<p>Send a request. Send the request defined by the <a class="el" href="classm2m_1_1Request.html" title="An object representing a oneM2M request from an AE.">Request</a> object. This function queues the request for transmission and returns immediately. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a25">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a28">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>
@@ -499,7 +502,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
 </div><div class="memdoc">
 <p>Enter the main event handling loop.</p>
 <p>Enter the event handling loop. This method doesn't return unless the application is expected to exit. </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a14">aos_metering_app.cpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a14">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a16">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
 
 </div>

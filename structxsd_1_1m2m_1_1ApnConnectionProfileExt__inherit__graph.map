@@ -1,0 +1,9 @@
+<map id="xsd::m2m::ApnConnectionProfileExt" name="xsd::m2m::ApnConnectionProfileExt">
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:apnConnectionProfileExt." alt="" coords="5,453,260,480"/>
+<area shape="rect" id="node2" href="$structxsd_1_1m2m_1_1MgmtResource.html" title="Class representation of xsd type m2m:mgmtResource." alt="" coords="36,379,229,405"/>
+<area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1AnnounceableResource.html" title="Class representation of xsd type m2m:announceableResource." alt="" coords="9,304,256,331"/>
+<area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1RegularResource.html" title="Class representation of xsd type m2m:regularResource." alt="" coords="30,229,235,256"/>
+<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource." alt="" coords="55,155,210,181"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="51,80,215,107"/>
+<area shape="rect" id="node7" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="79,5,186,32"/>
+</map>

@@ -1,7 +1,0 @@
-<map id="xsd::m2m::CdtAggregatedRequest" name="xsd::m2m::CdtAggregatedRequest">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:aggregatedRequest." alt="" coords="563,39,808,65"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="268,5,432,32"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,56,461,112"/>
-<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,71,189,97"/>
-</map>

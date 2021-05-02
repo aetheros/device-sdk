@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_8869e0ebec2fa98b60ff7a49bb5d8a2b.html">libaos</a></li><li class="navelem"><a class="el" href="dir_def14dd1325d0ee826b230ac54da432f.html">inc</a></li><li class="navelem"><a class="el" href="dir_fc78347c59651ff64c3f1081c7837e96.html">aos</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_5f3db811bb069519970fc1bee66ec4e9.html">libaos</a></li><li class="navelem"><a class="el" href="dir_f69bb0bbcb2ae57608a55051c0cd832c.html">inc</a></li><li class="navelem"><a class="el" href="dir_e41bad2418ca40626b9b812cc974ffa2.html">aos</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -79,31 +79,32 @@ $(function() {
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">include</span> <span class="preprocessor">&lt;</span><span class="preprocessor">aos</span><span class="preprocessor">/</span><span class="preprocessor">Common</span><span class="preprocessor">.</span><span class="preprocessor">hpp</span><span class="preprocessor">&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">//! The aos namespace</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="namespaceaos.html">   12</a></span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespaceaos.html">aos</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="comment">/*! The SDK Application guard object.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">     *</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">     * An object of this type should be instantiated at the beginning of the toplevel scope at which AOS SDK is used.</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">     * This would usually be near the beginning of the main() function.  The constructor performs some global SDK</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">     * initialization, and the destructor performs SDK cleanup.</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classaos_1_1AppMain.html">   20</a></span>&#160;    <span class="keyword">class</span> <a class="code" href="libaos_2inc_2aos_2Common_8hpp.html">DSO_API</a> <a class="code" href="classaos_1_1AppMain.html">AppMain</a></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="classaos_1_1AppMain.html#afa87b6b3213a387ca30c44424fc645f0">AppMain</a>();  <span class="comment">//!&lt; Constructor</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        ~AppMain();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        AppMain(<span class="keyword">const</span> <a class="code" href="classaos_1_1AppMain.html">AppMain</a> &amp;) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classaos_1_1AppMain.html">AppMain</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classaos_1_1AppMain.html">AppMain</a> &amp;) = <span class="keyword">delete</span>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*! \brief The aos namespace</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="namespaceaos.html">   13</a></span>&#160;<span class="keyword">namespace</span> <a class="code" href="namespaceaos.html">aos</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">/*! \brief The SDK Application guard object.</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">     *</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">     * An object of this type should be instantiated at the beginning of the toplevel scope at which AOS SDK is used.</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">     * This would usually be near the beginning of the main() function.  The constructor performs some global SDK</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">     * initialization, and the destructor performs SDK cleanup.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classaos_1_1AppMain.html">   21</a></span>&#160;    <span class="keyword">class</span> <a class="code" href="libaos_2inc_2aos_2Common_8hpp.html">DSO_API</a> <a class="code" href="classaos_1_1AppMain.html">AppMain</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="classaos_1_1AppMain.html#afa87b6b3213a387ca30c44424fc645f0">AppMain</a>();  <span class="comment">//!&lt; Constructor</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        ~AppMain();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        AppMain(<span class="keyword">const</span> <a class="code" href="classaos_1_1AppMain.html">AppMain</a> &amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="classaos_1_1AppMain.html">AppMain</a> &amp;operator=(<span class="keyword">const</span> <a class="code" href="classaos_1_1AppMain.html">AppMain</a> &amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    };</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="anamespaceaos_html"><div class="ttname"><a href="namespaceaos.html">aos</a></div><div class="ttdoc">The aos namespace.</div><div class="ttdef"><b>Definition:</b> AppMain.hpp:12</div></div>
+<div class="ttc" id="anamespaceaos_html"><div class="ttname"><a href="namespaceaos.html">aos</a></div><div class="ttdoc">The aos namespace.</div><div class="ttdef"><b>Definition:</b> AppMain.hpp:13</div></div>
 <div class="ttc" id="alibaos_2inc_2aos_2Common_8hpp_html"><div class="ttname"><a href="libaos_2inc_2aos_2Common_8hpp.html">DSO_API</a></div><div class="ttdeci">#define DSO_API</div><div class="ttdef"><b>Definition:</b> Common.hpp:22</div></div>
-<div class="ttc" id="aclassaos_1_1AppMain_html"><div class="ttname"><a href="classaos_1_1AppMain.html">aos::AppMain</a></div><div class="ttdef"><b>Definition:</b> AppMain.hpp:20</div></div>
+<div class="ttc" id="aclassaos_1_1AppMain_html"><div class="ttname"><a href="classaos_1_1AppMain.html">aos::AppMain</a></div><div class="ttdoc">The SDK Application guard object.</div><div class="ttdef"><b>Definition:</b> AppMain.hpp:21</div></div>
 <div class="ttc" id="aclassaos_1_1AppMain_html_afa87b6b3213a387ca30c44424fc645f0"><div class="ttname"><a href="classaos_1_1AppMain.html#afa87b6b3213a387ca30c44424fc645f0">aos::AppMain::AppMain</a></div><div class="ttdeci">AppMain()</div><div class="ttdoc">Constructor.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

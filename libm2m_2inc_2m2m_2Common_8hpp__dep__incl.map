@@ -1,7 +1,0 @@
-<map id="libm2m/inc/m2m/Common.hpp" name="libm2m/inc/m2m/Common.hpp">
-<area shape="rect" id="node1" title="Commonly used types." alt="" coords="43,5,267,32"/>
-<area shape="rect" id="node2" href="$AppEntity_8hpp.html" title="The SDK AppEntity class." alt="" coords="41,229,268,256"/>
-<area shape="rect" id="node3" href="$M2mTypes_8hpp_source.html" title=" " alt="" coords="37,80,272,107"/>
-<area shape="rect" id="node5" href="$Request_8hpp.html" title="Request class." alt="" coords="299,155,517,181"/>
-<area shape="rect" id="node4" href="$Notification_8hpp.html" title="Notification class." alt="" coords="35,155,275,181"/>
-</map>

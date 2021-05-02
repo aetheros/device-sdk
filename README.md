@@ -1,2 +1,0 @@
-# AOS Device App SDK
-

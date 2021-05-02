@@ -1,7 +1,0 @@
-<map id="xsd::m2m::CdtListOfM2MID" name="xsd::m2m::CdtListOfM2MID">
-<area shape="rect" id="node1" title="Class representation of listOfM2MID." alt="" coords="5,276,207,303"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="23,200,189,227"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="37,117,143,143"/>
-<area shape="rect" id="node4" title=" " alt="" coords="168,109,367,151"/>
-<area shape="rect" id="node5" title=" " alt="" coords="193,5,342,47"/>
-</map>

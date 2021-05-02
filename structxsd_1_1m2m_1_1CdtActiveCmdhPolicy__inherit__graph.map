@@ -1,9 +1,0 @@
-<map id="xsd::m2m::CdtActiveCmdhPolicy" name="xsd::m2m::CdtActiveCmdhPolicy">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:activeCmdhPolicy." alt="" coords="5,468,240,495"/>
-<area shape="rect" id="node2" href="$structxsd_1_1m2m_1_1CdtMgmtResource.html" title="Class representation of xsd type m2m:mgmtResource." alt="" coords="15,393,230,420"/>
-<area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1CdtAnnounceableResource.html" title="Class representation of xsd type m2m:announceableResource." alt="" coords="18,304,227,345"/>
-<area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1CdtRegularResource.html" title="Class representation of xsd type m2m:regularResource." alt="" coords="9,229,236,256"/>
-<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1CdtResource.html" title="Class representation of xsd type m2m:resource." alt="" coords="34,155,211,181"/>
-<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="41,80,205,107"/>
-<area shape="rect" id="node7" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="69,5,176,32"/>
-</map>
