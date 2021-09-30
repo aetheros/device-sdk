@@ -1,5 +1,5 @@
 <map id="xsd::m2m::UploadArgsType" name="xsd::m2m::UploadArgsType">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:uploadArgsType." alt="" coords="537,89,737,116"/>
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:uploadArgsType." alt="" coords="536,89,736,116"/>
 <area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="249,5,413,32"/>
 <area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
 <area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="247,57,415,98"/>

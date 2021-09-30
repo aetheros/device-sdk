@@ -1,6 +1,6 @@
 <map id="xsd::m2m::ListOfEventCatWithDef" name="xsd::m2m::ListOfEventCatWithDef">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:listOfEventCatWithDef." alt="" coords="53,199,245,240"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="48,109,251,151"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,20,112,47"/>
-<area shape="rect" id="node4" title=" " alt="" coords="136,5,344,61"/>
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:listOfEventCatWithDef." alt="" coords="33,169,225,211"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="28,80,231,121"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="137,5,266,32"/>
 </map>

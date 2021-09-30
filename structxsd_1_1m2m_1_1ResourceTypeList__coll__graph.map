@@ -1,7 +1,7 @@
 <map id="xsd::m2m::ResourceTypeList" name="xsd::m2m::ResourceTypeList">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:resourceTypeList." alt="" coords="5,305,213,332"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="7,215,211,256"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="40,124,147,151"/>
-<area shape="rect" id="node4" title=" " alt="" coords="171,109,394,165"/>
-<area shape="rect" id="node5" title=" " alt="" coords="193,5,372,47"/>
+<area shape="rect" id="node1" title="Class representation of xsd type m2m:resourceTypeList." alt="" coords="5,261,213,288"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="7,171,211,212"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="40,95,147,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="171,95,301,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="217,5,255,32"/>
 </map>
