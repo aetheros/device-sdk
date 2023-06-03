@@ -481,6 +481,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RequestPrimitive.html">RequestPrimitive</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class representation of xsd type <a class="el" href="namespacexsd_1_1m2m.html" title="The xsd::m2m namespace.">m2m</a>:requestPrimitive.  <a href="structxsd_1_1m2m_1_1RequestPrimitive.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxsd_1_1m2m_1_1ResourceFactory.html">ResourceFactory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> factory base class.  <a href="classxsd_1_1m2m_1_1ResourceFactory.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxsd_1_1m2m_1_1ConcreteResourceFactory.html">ConcreteResourceFactory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A factory class for Resource-derived types.  <a href="classxsd_1_1m2m_1_1ConcreteResourceFactory.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1ResponsePrimitive.html">ResponsePrimitive</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class representation of xsd type <a class="el" href="namespacexsd_1_1m2m.html" title="The xsd::m2m namespace.">m2m</a>:responsePrimitive.  <a href="structxsd_1_1m2m_1_1ResponsePrimitive.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -504,12 +510,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Subscription.html">Subscription</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class representation of xsd type <a class="el" href="namespacexsd_1_1m2m.html" title="The xsd::m2m namespace.">m2m</a>:subscription.  <a href="structxsd_1_1m2m_1_1Subscription.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxsd_1_1m2m_1_1ResourceFactory.html">ResourceFactory</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> Factory base class.  <a href="classxsd_1_1m2m_1_1ResourceFactory.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classxsd_1_1m2m_1_1ConcreteResourceFactory.html">ConcreteResourceFactory</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> Factory concrete class.  <a href="classxsd_1_1m2m_1_1ConcreteResourceFactory.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1ResourceClass.html">ResourceClass</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class information about a OneM2M <a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a>.  <a href="structxsd_1_1m2m_1_1ResourceClass.html#details">More...</a><br /></td></tr>
@@ -996,6 +996,13 @@ Enumerations</h2></td></tr>
 , <b>SOFTWAREINSTALL</b> = 5
 , <b>SOFTWAREUNINSTALL</b> = 6
 , <b>SOFTWAREUPDATE</b> = 7
+, <br />
+&#160;&#160;<b>GET_STATUS</b> = 1000
+, <b>LWM2M_READ</b> = 1001
+, <b>LWM2M_DELETE</b> = 1002
+, <b>LWM2M_EXECUTE</b> = 1003
+, <br />
+&#160;&#160;<b>LWM2M_UPDATE_PSK</b> = 1004
 <br />
  }</td></tr>
 <tr class="memdesc:a27ae614a4d0cfc593a19c2cd923d9d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">CmdType. <br /></td></tr>
@@ -1144,6 +1151,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<b>moduleInfoExt</b> = 10004
 , <b>mcuFirmware</b> = 10005
+, <b>throttleTraffic</b> = 10006
 <br />
  }</td></tr>
 <tr class="memdesc:ad94bc4a687c089a0e6210c0481ac2600"><td class="mdescLeft">&#160;</td><td class="mdescRight">MgmtDefinition. <br /></td></tr>
@@ -2973,9 +2981,8 @@ std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexsd_1_1m2m.html#ac5ced07aa9aa5181eb29555d1d3e4fa1">to_string</a> (<a class="el" href="namespacexsd_1_1m2m.html#a3864acd17381690c1d6f6f491408c0b0">SecurityInfoType</a> key)</td></tr>
 <tr class="memdesc:ac5ced07aa9aa5181eb29555d1d3e4fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the string representation of a SecurityInfoType value. <br /></td></tr>
 <tr class="separator:ac5ced07aa9aa5181eb29555d1d3e4fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2c3c1328dbae670afd71897ea8ac2e0"><td class="memItemLeft" align="right" valign="top"><a id="aa2c3c1328dbae670afd71897ea8ac2e0"></a>
-<a class="el" href="classxsd_1_1m2m_1_1ResourceFactory.html">ResourceFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexsd_1_1m2m.html#aa2c3c1328dbae670afd71897ea8ac2e0">sn2ResourceFactory</a> (const char *sn) DSO_API</td></tr>
-<tr class="memdesc:aa2c3c1328dbae670afd71897ea8ac2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a resource factory using the resource short name as the key. <br /></td></tr>
+<tr class="memitem:aa2c3c1328dbae670afd71897ea8ac2e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classxsd_1_1m2m_1_1ResourceFactory.html">ResourceFactory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacexsd_1_1m2m.html#aa2c3c1328dbae670afd71897ea8ac2e0">sn2ResourceFactory</a> (const char *sn) DSO_API</td></tr>
+<tr class="memdesc:aa2c3c1328dbae670afd71897ea8ac2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> factory lookup function.  <a href="namespacexsd_1_1m2m.html#aa2c3c1328dbae670afd71897ea8ac2e0">More...</a><br /></td></tr>
 <tr class="separator:aa2c3c1328dbae670afd71897ea8ac2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -2987,7 +2994,35 @@ constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="namespacexsd_1_1m2m.html" title="The xsd::m2m namespace.">xsd::m2m</a> namespace. </p>
-</div></div><!-- contents -->
+<p>This namespace was generated from an xml schema. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="aa2c3c1328dbae670afd71897ea8ac2e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2c3c1328dbae670afd71897ea8ac2e0">&#9670;&nbsp;</a></span>sn2ResourceFactory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classxsd_1_1m2m_1_1ResourceFactory.html">ResourceFactory</a>* xsd::m2m::sn2ResourceFactory </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> factory lookup function. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sn</td><td>The lookup key, which should be the shortname for the derived <a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> type. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1

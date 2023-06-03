@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waitforever_1907',['waitForever',['../classm2m_1_1AppEntity.html#a3d3655547800123b1af91bd0bf8c65a0',1,'m2m::AppEntity']]]
+  ['voltage_5fscale_2481',['voltage_scale',['../namespaceaos_1_1waveform__provider.html#ab3abf95c9ea3660e391a29dacf18f036',1,'aos::waveform_provider']]]
 ];

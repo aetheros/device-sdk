@@ -1,5 +1,5 @@
 <map id="xsd::XsdFundamentalType&lt; T &gt;" name="xsd::XsdFundamentalType&lt; T &gt;">
-<area shape="rect" id="node1" title="XSD Fundamental type wrapper class." alt="" coords="236,499,467,525"/>
+<area shape="rect" id="node1" title="XSD Fundamental type wrapper class." alt="" coords="236,557,467,584"/>
 <area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1AbsRelTimestamp.html" title="Class representation of xsd type m2m:absRelTimestamp." alt="" coords="538,5,753,32"/>
 <area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1ContentInfo.html" title="Class representation of xsd type m2m:contentInfo." alt="" coords="560,56,731,83"/>
 <area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1CountryCode.html" title="Class representation of xsd type m2m:countryCode." alt="" coords="556,107,735,133"/>
@@ -17,8 +17,10 @@
 <area shape="rect" id="node17" href="$structxsd_1_1m2m_1_1TokenID.html" title="Class representation of xsd type m2m:tokenID." alt="" coords="572,760,719,787"/>
 <area shape="rect" id="node18" href="$structxsd_1_1m2m_1_1TriggerRecipientID.html" title="Class representation of xsd type m2m:triggerRecipientID." alt="" coords="545,811,745,853"/>
 <area shape="rect" id="node19" href="$structxsd_1_1m2m_1_1TypeOfContent.html" title="Class representation of xsd type m2m:typeOfContent." alt="" coords="550,877,741,904"/>
-<area shape="rect" id="node21" href="$structxsd_1_1mtrsvc_1_1ReadingType.html" title="Class representation of xsd type mtrsvc:readingType." alt="" coords="551,928,740,955"/>
-<area shape="rect" id="node22" href="$structxsd_1_1mtrsvc_1_1Timestamp.html" title="Class representation of xsd type mtrsvc:timestamp." alt="" coords="555,979,735,1005"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,491,188,533"/>
+<area shape="rect" id="node21" href="$structxsd_1_1mtrsvc_1_1ControlType.html" title="Class representation of xsd type mtrsvc:controlType." alt="" coords="554,928,737,955"/>
+<area shape="rect" id="node22" href="$structxsd_1_1mtrsvc_1_1LcSwitchNum.html" title="Class representation of xsd type mtrsvc:lcSwitchNum." alt="" coords="548,979,743,1021"/>
+<area shape="rect" id="node23" href="$structxsd_1_1mtrsvc_1_1ReadingType.html" title="Class representation of xsd type mtrsvc:readingType." alt="" coords="551,1045,740,1072"/>
+<area shape="rect" id="node24" href="$structxsd_1_1mtrsvc_1_1Timestamp.html" title="Class representation of xsd type mtrsvc:timestamp." alt="" coords="555,1096,735,1123"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,550,188,591"/>
 <area shape="rect" id="node20" href="$structxsd_1_1m2m_1_1PermittedMediaTypes.html" title="Class representation of xsd type m2m:permittedMediaTypes." alt="" coords="824,870,1023,911"/>
 </map>

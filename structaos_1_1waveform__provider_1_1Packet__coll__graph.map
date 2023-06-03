@@ -1,0 +1,4 @@
+<map id="aos::waveform_provider::Packet" name="aos::waveform_provider::Packet">
+<area shape="rect" id="node1" title="struct struct sent from the Waveform Provider service containing stream and sample information...." alt="" coords="5,109,185,151"/>
+<area shape="rect" id="node2" href="$structaos_1_1waveform__provider_1_1SampleBlock.html" title="struct containing three channels of sampled voltage and current. Valid channels depends on Network va..." alt="" coords="5,5,185,47"/>
+</map>

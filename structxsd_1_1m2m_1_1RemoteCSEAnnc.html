@@ -166,7 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2505abcc5a90850df71b1cd022fec761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada1826cc31dfae417d4daba8dad1c0e3"><td class="memItemLeft" align="right" valign="top"><a id="ada1826cc31dfae417d4daba8dad1c0e3"></a>
 const <a class="el" href="structxsd_1_1m2m_1_1ResourceClass.html">ResourceClass</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ada1826cc31dfae417d4daba8dad1c0e3">getClass</a> () const override</td></tr>
-<tr class="memdesc:ada1826cc31dfae417d4daba8dad1c0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get resource class information structure. <br /></td></tr>
+<tr class="memdesc:ada1826cc31dfae417d4daba8dad1c0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> class information structure. <br /></td></tr>
 <tr class="separator:ada1826cc31dfae417d4daba8dad1c0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae84c91fa61fd13d5b7a8a6889fca2359"><td class="memItemLeft" align="right" valign="top"><a id="ae84c91fa61fd13d5b7a8a6889fca2359"></a>
 const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ae84c91fa61fd13d5b7a8a6889fca2359">getQualifiedShortName</a> () const override</td></tr>
@@ -180,6 +180,62 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a666a2287bc0f69714ffe14944082b1c1">marshallMembers</a> (<a class="el" href="namespacexsd.html#a7d264e66513d55e4e4f81dd96a37aee7">Marshaller</a> &amp;m) const override</td></tr>
 <tr class="memdesc:a666a2287bc0f69714ffe14944082b1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">marshalls all member element <br /></td></tr>
 <tr class="separator:a666a2287bc0f69714ffe14944082b1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8e49e949f4fe5424508ef1811038b8"><td class="memItemLeft" align="right" valign="top"><a id="a9c8e49e949f4fe5424508ef1811038b8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a9c8e49e949f4fe5424508ef1811038b8">has_cseType</a> () const</td></tr>
+<tr class="memdesc:a9c8e49e949f4fe5424508ef1811038b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element cseType is set. <br /></td></tr>
+<tr class="separator:a9c8e49e949f4fe5424508ef1811038b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469dcad935e1afab3aec98ccd54e4f23"><td class="memItemLeft" align="right" valign="top"><a id="a469dcad935e1afab3aec98ccd54e4f23"></a>
+const <a class="el" href="namespacexsd_1_1m2m.html#ad92a64843a46cdbf1325be8bfd25909d">CseTypeID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a469dcad935e1afab3aec98ccd54e4f23">get_cseType</a> () const</td></tr>
+<tr class="memdesc:a469dcad935e1afab3aec98ccd54e4f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element cseType. <br /></td></tr>
+<tr class="separator:a469dcad935e1afab3aec98ccd54e4f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f90365303ce7677c25d1c0dcac90f5"><td class="memItemLeft" align="right" valign="top"><a id="a96f90365303ce7677c25d1c0dcac90f5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a96f90365303ce7677c25d1c0dcac90f5">has_pointOfAccess</a> () const</td></tr>
+<tr class="memdesc:a96f90365303ce7677c25d1c0dcac90f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element pointOfAccess is set. <br /></td></tr>
+<tr class="separator:a96f90365303ce7677c25d1c0dcac90f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8339d442a0c155a5014b1b697811837"><td class="memItemLeft" align="right" valign="top"><a id="ad8339d442a0c155a5014b1b697811837"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1PoaList.html">PoaList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ad8339d442a0c155a5014b1b697811837">get_pointOfAccess</a> () const</td></tr>
+<tr class="memdesc:ad8339d442a0c155a5014b1b697811837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element pointOfAccess. <br /></td></tr>
+<tr class="separator:ad8339d442a0c155a5014b1b697811837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ece78d5c588e6a1da3db558f353c94"><td class="memItemLeft" align="right" valign="top"><a id="ac8ece78d5c588e6a1da3db558f353c94"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ac8ece78d5c588e6a1da3db558f353c94">has_CSEBase</a> () const</td></tr>
+<tr class="memdesc:ac8ece78d5c588e6a1da3db558f353c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element <a class="el" href="structxsd_1_1m2m_1_1CSEBase.html" title="Class representation of xsd type m2m:CSEBase.">CSEBase</a> is set. <br /></td></tr>
+<tr class="separator:ac8ece78d5c588e6a1da3db558f353c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7b46423c64a69e55c0eff2ea41b439"><td class="memItemLeft" align="right" valign="top"><a id="a2a7b46423c64a69e55c0eff2ea41b439"></a>
+const xs::AnyURI::native_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a2a7b46423c64a69e55c0eff2ea41b439">get_CSEBase</a> () const</td></tr>
+<tr class="memdesc:a2a7b46423c64a69e55c0eff2ea41b439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element <a class="el" href="structxsd_1_1m2m_1_1CSEBase.html" title="Class representation of xsd type m2m:CSEBase.">CSEBase</a>. <br /></td></tr>
+<tr class="separator:a2a7b46423c64a69e55c0eff2ea41b439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0aecb5df91e556a7bbb938523c13a72"><td class="memItemLeft" align="right" valign="top"><a id="ab0aecb5df91e556a7bbb938523c13a72"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ab0aecb5df91e556a7bbb938523c13a72">has_CSE_ID</a> () const</td></tr>
+<tr class="memdesc:ab0aecb5df91e556a7bbb938523c13a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element CSE_ID is set. <br /></td></tr>
+<tr class="separator:ab0aecb5df91e556a7bbb938523c13a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775ac8cbfed7410697832d747b489ed9"><td class="memItemLeft" align="right" valign="top"><a id="a775ac8cbfed7410697832d747b489ed9"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1ID.html">ID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a775ac8cbfed7410697832d747b489ed9">get_CSE_ID</a> () const</td></tr>
+<tr class="memdesc:a775ac8cbfed7410697832d747b489ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element CSE_ID. <br /></td></tr>
+<tr class="separator:a775ac8cbfed7410697832d747b489ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af35a74a5a622a752959a4e2eb2b096e9"><td class="memItemLeft" align="right" valign="top"><a id="af35a74a5a622a752959a4e2eb2b096e9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#af35a74a5a622a752959a4e2eb2b096e9">has_requestReachability</a> () const</td></tr>
+<tr class="memdesc:af35a74a5a622a752959a4e2eb2b096e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element requestReachability is set. <br /></td></tr>
+<tr class="separator:af35a74a5a622a752959a4e2eb2b096e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab18a344117b8bf773cc5686a19b66b2e"><td class="memItemLeft" align="right" valign="top"><a id="ab18a344117b8bf773cc5686a19b66b2e"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ab18a344117b8bf773cc5686a19b66b2e">get_requestReachability</a> () const</td></tr>
+<tr class="memdesc:ab18a344117b8bf773cc5686a19b66b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element requestReachability. <br /></td></tr>
+<tr class="separator:ab18a344117b8bf773cc5686a19b66b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf768f99b94e20beeb748df959144b39"><td class="memItemLeft" align="right" valign="top"><a id="aaf768f99b94e20beeb748df959144b39"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#aaf768f99b94e20beeb748df959144b39">has_nodeLink</a> () const</td></tr>
+<tr class="memdesc:aaf768f99b94e20beeb748df959144b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element nodeLink is set. <br /></td></tr>
+<tr class="separator:aaf768f99b94e20beeb748df959144b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2e5474cba95fea205331e15cde399f"><td class="memItemLeft" align="right" valign="top"><a id="aba2e5474cba95fea205331e15cde399f"></a>
+const xs::AnyURI::native_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#aba2e5474cba95fea205331e15cde399f">get_nodeLink</a> () const</td></tr>
+<tr class="memdesc:aba2e5474cba95fea205331e15cde399f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element nodeLink. <br /></td></tr>
+<tr class="separator:aba2e5474cba95fea205331e15cde399f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae336cbca1aadcc27edaebb5f11d3c80f"><td class="memItemLeft" align="right" valign="top"><a id="ae336cbca1aadcc27edaebb5f11d3c80f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ae336cbca1aadcc27edaebb5f11d3c80f">has_e2eSecInfo</a> () const</td></tr>
+<tr class="memdesc:ae336cbca1aadcc27edaebb5f11d3c80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element e2eSecInfo is set. <br /></td></tr>
+<tr class="separator:ae336cbca1aadcc27edaebb5f11d3c80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a354fb8dc12018488d513a1c96f3ceff1"><td class="memItemLeft" align="right" valign="top"><a id="a354fb8dc12018488d513a1c96f3ceff1"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1E2eSecInfo.html">E2eSecInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a354fb8dc12018488d513a1c96f3ceff1">get_e2eSecInfo</a> () const</td></tr>
+<tr class="memdesc:a354fb8dc12018488d513a1c96f3ceff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element e2eSecInfo. <br /></td></tr>
+<tr class="separator:a354fb8dc12018488d513a1c96f3ceff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structxsd_1_1m2m_1_1AnnouncedResource')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html">xsd::m2m::AnnouncedResource</a></td></tr>
 <tr class="memitem:a797731855eea270896955f7c1e364d1a inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a797731855eea270896955f7c1e364d1a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a797731855eea270896955f7c1e364d1a">AnnouncedResource</a> ()</td></tr>
@@ -205,6 +261,38 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 <a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html">AnnouncedResource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a7baf02b4e44267c9eb67c542b4dd6ac7">operator=</a> (const <a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html">AnnouncedResource</a> &amp;)=default</td></tr>
 <tr class="memdesc:a7baf02b4e44267c9eb67c542b4dd6ac7 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">default assignment operator <br /></td></tr>
 <tr class="separator:a7baf02b4e44267c9eb67c542b4dd6ac7 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63568ca5350781a3cbae7d36b9563da2 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a63568ca5350781a3cbae7d36b9563da2"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a63568ca5350781a3cbae7d36b9563da2">has_accessControlPolicyIDs</a> () const</td></tr>
+<tr class="memdesc:a63568ca5350781a3cbae7d36b9563da2 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element accessControlPolicyIDs is set. <br /></td></tr>
+<tr class="separator:a63568ca5350781a3cbae7d36b9563da2 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b20d1e02b02e537a5e38763019e708 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a41b20d1e02b02e537a5e38763019e708"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1AcpType.html">AcpType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a41b20d1e02b02e537a5e38763019e708">get_accessControlPolicyIDs</a> () const</td></tr>
+<tr class="memdesc:a41b20d1e02b02e537a5e38763019e708 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element accessControlPolicyIDs. <br /></td></tr>
+<tr class="separator:a41b20d1e02b02e537a5e38763019e708 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7923e13f53992021867b244586c7b98b inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a7923e13f53992021867b244586c7b98b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a7923e13f53992021867b244586c7b98b">has_expirationTime</a> () const</td></tr>
+<tr class="memdesc:a7923e13f53992021867b244586c7b98b inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element expirationTime is set. <br /></td></tr>
+<tr class="separator:a7923e13f53992021867b244586c7b98b inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ca14c62bdad2dcc5e75d2a8e8a5ffd inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a99ca14c62bdad2dcc5e75d2a8e8a5ffd"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1Timestamp.html">Timestamp</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a99ca14c62bdad2dcc5e75d2a8e8a5ffd">get_expirationTime</a> () const</td></tr>
+<tr class="memdesc:a99ca14c62bdad2dcc5e75d2a8e8a5ffd inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element expirationTime. <br /></td></tr>
+<tr class="separator:a99ca14c62bdad2dcc5e75d2a8e8a5ffd inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16aa7c7088c2ca8830d33e7fc99b74fe inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a16aa7c7088c2ca8830d33e7fc99b74fe"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a16aa7c7088c2ca8830d33e7fc99b74fe">has_link</a> () const</td></tr>
+<tr class="memdesc:a16aa7c7088c2ca8830d33e7fc99b74fe inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element link is set. <br /></td></tr>
+<tr class="separator:a16aa7c7088c2ca8830d33e7fc99b74fe inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873ccf015fd412d1ac0df5c00a176cb1 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a873ccf015fd412d1ac0df5c00a176cb1"></a>
+const xs::AnyURI::native_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a873ccf015fd412d1ac0df5c00a176cb1">get_link</a> () const</td></tr>
+<tr class="memdesc:a873ccf015fd412d1ac0df5c00a176cb1 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element link. <br /></td></tr>
+<tr class="separator:a873ccf015fd412d1ac0df5c00a176cb1 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f161fe89bc8bacea9dc5e1862f366ec inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a2f161fe89bc8bacea9dc5e1862f366ec"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a2f161fe89bc8bacea9dc5e1862f366ec">has_dynamicAuthorizationConsultationIDs</a> () const</td></tr>
+<tr class="memdesc:a2f161fe89bc8bacea9dc5e1862f366ec inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element dynamicAuthorizationConsultationIDs is set. <br /></td></tr>
+<tr class="separator:a2f161fe89bc8bacea9dc5e1862f366ec inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa76598809231fbc2d2a1e81cf3c9463 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="afa76598809231fbc2d2a1e81cf3c9463"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1ListOfURIs.html">ListOfURIs</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#afa76598809231fbc2d2a1e81cf3c9463">get_dynamicAuthorizationConsultationIDs</a> () const</td></tr>
+<tr class="memdesc:afa76598809231fbc2d2a1e81cf3c9463 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element dynamicAuthorizationConsultationIDs. <br /></td></tr>
+<tr class="separator:afa76598809231fbc2d2a1e81cf3c9463 inherit pub_methods_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structxsd_1_1m2m_1_1Resource"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structxsd_1_1m2m_1_1Resource')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structxsd_1_1m2m_1_1Resource.html">xsd::m2m::Resource</a></td></tr>
 <tr class="memitem:a2b119f4cef3179742060e4da04be7dbe inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a2b119f4cef3179742060e4da04be7dbe"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a2b119f4cef3179742060e4da04be7dbe">Resource</a> ()</td></tr>
@@ -230,6 +318,62 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stru
 <a class="el" href="structxsd_1_1m2m_1_1Resource.html">Resource</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#aac5b8255675faeb702f9611976aa2809">operator=</a> (const <a class="el" href="structxsd_1_1m2m_1_1Resource.html">Resource</a> &amp;)=default</td></tr>
 <tr class="memdesc:aac5b8255675faeb702f9611976aa2809 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">default assignment operator <br /></td></tr>
 <tr class="separator:aac5b8255675faeb702f9611976aa2809 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3f5f3043a9cd600ba455d6cdc833b9 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a2c3f5f3043a9cd600ba455d6cdc833b9"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a2c3f5f3043a9cd600ba455d6cdc833b9">has_resourceType</a> () const</td></tr>
+<tr class="memdesc:a2c3f5f3043a9cd600ba455d6cdc833b9 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element resourceType is set. <br /></td></tr>
+<tr class="separator:a2c3f5f3043a9cd600ba455d6cdc833b9 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa48c17a3732a673e1011c2299b8a83e inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="aaa48c17a3732a673e1011c2299b8a83e"></a>
+const <a class="el" href="namespacexsd_1_1m2m.html#a77fbecdd646720994270ca1749c46ea6">ResourceType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#aaa48c17a3732a673e1011c2299b8a83e">get_resourceType</a> () const</td></tr>
+<tr class="memdesc:aaa48c17a3732a673e1011c2299b8a83e inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element resourceType. <br /></td></tr>
+<tr class="separator:aaa48c17a3732a673e1011c2299b8a83e inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7427ab51f9e020698332ccf6e53c84a inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="ad7427ab51f9e020698332ccf6e53c84a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#ad7427ab51f9e020698332ccf6e53c84a">has_resourceID</a> () const</td></tr>
+<tr class="memdesc:ad7427ab51f9e020698332ccf6e53c84a inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element resourceID is set. <br /></td></tr>
+<tr class="separator:ad7427ab51f9e020698332ccf6e53c84a inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605d5b0db4179564647a72edcfae9ba3 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a605d5b0db4179564647a72edcfae9ba3"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1ID.html">ID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a605d5b0db4179564647a72edcfae9ba3">get_resourceID</a> () const</td></tr>
+<tr class="memdesc:a605d5b0db4179564647a72edcfae9ba3 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element resourceID. <br /></td></tr>
+<tr class="separator:a605d5b0db4179564647a72edcfae9ba3 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8faaea860e21492bed8db53937dc63e1 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a8faaea860e21492bed8db53937dc63e1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a8faaea860e21492bed8db53937dc63e1">has_parentID</a> () const</td></tr>
+<tr class="memdesc:a8faaea860e21492bed8db53937dc63e1 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element parentID is set. <br /></td></tr>
+<tr class="separator:a8faaea860e21492bed8db53937dc63e1 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173e642cc69697b040a7f493a2faa30b inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a173e642cc69697b040a7f493a2faa30b"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1NhURI.html">NhURI</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a173e642cc69697b040a7f493a2faa30b">get_parentID</a> () const</td></tr>
+<tr class="memdesc:a173e642cc69697b040a7f493a2faa30b inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element parentID. <br /></td></tr>
+<tr class="separator:a173e642cc69697b040a7f493a2faa30b inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167e49bd98c71c3e8edcc8ef4581fe3f inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a167e49bd98c71c3e8edcc8ef4581fe3f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a167e49bd98c71c3e8edcc8ef4581fe3f">has_creationTime</a> () const</td></tr>
+<tr class="memdesc:a167e49bd98c71c3e8edcc8ef4581fe3f inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element creationTime is set. <br /></td></tr>
+<tr class="separator:a167e49bd98c71c3e8edcc8ef4581fe3f inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd633d533d90891d9a45b036b10baac3 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="acd633d533d90891d9a45b036b10baac3"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1Timestamp.html">Timestamp</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#acd633d533d90891d9a45b036b10baac3">get_creationTime</a> () const</td></tr>
+<tr class="memdesc:acd633d533d90891d9a45b036b10baac3 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element creationTime. <br /></td></tr>
+<tr class="separator:acd633d533d90891d9a45b036b10baac3 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493305e0e9d786232511488d64b8c1cc inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a493305e0e9d786232511488d64b8c1cc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a493305e0e9d786232511488d64b8c1cc">has_lastModifiedTime</a> () const</td></tr>
+<tr class="memdesc:a493305e0e9d786232511488d64b8c1cc inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element lastModifiedTime is set. <br /></td></tr>
+<tr class="separator:a493305e0e9d786232511488d64b8c1cc inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b495003d468900e0d79a28638266063 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a1b495003d468900e0d79a28638266063"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1Timestamp.html">Timestamp</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a1b495003d468900e0d79a28638266063">get_lastModifiedTime</a> () const</td></tr>
+<tr class="memdesc:a1b495003d468900e0d79a28638266063 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element lastModifiedTime. <br /></td></tr>
+<tr class="separator:a1b495003d468900e0d79a28638266063 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7bc5c81d97e85c6009f68d9390a2ad inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="acf7bc5c81d97e85c6009f68d9390a2ad"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#acf7bc5c81d97e85c6009f68d9390a2ad">has_labels</a> () const</td></tr>
+<tr class="memdesc:acf7bc5c81d97e85c6009f68d9390a2ad inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element labels is set. <br /></td></tr>
+<tr class="separator:acf7bc5c81d97e85c6009f68d9390a2ad inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c61835180cf99ef7cd21eecc1e69dbf inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a5c61835180cf99ef7cd21eecc1e69dbf"></a>
+const <a class="el" href="structxsd_1_1m2m_1_1Labels.html">Labels</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a5c61835180cf99ef7cd21eecc1e69dbf">get_labels</a> () const</td></tr>
+<tr class="memdesc:a5c61835180cf99ef7cd21eecc1e69dbf inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element labels. <br /></td></tr>
+<tr class="separator:a5c61835180cf99ef7cd21eecc1e69dbf inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4df91890d65950c09647d0ec586c966 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="aa4df91890d65950c09647d0ec586c966"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#aa4df91890d65950c09647d0ec586c966">has_resourceName</a> () const</td></tr>
+<tr class="memdesc:aa4df91890d65950c09647d0ec586c966 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if element resourceName is set. <br /></td></tr>
+<tr class="separator:aa4df91890d65950c09647d0ec586c966 inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20787eebfda766f1db3187ace698ac4e inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a20787eebfda766f1db3187ace698ac4e"></a>
+const xs::NCName::native_type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a20787eebfda766f1db3187ace698ac4e">get_resourceName</a> () const</td></tr>
+<tr class="memdesc:a20787eebfda766f1db3187ace698ac4e inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get element resourceName. <br /></td></tr>
+<tr class="separator:a20787eebfda766f1db3187ace698ac4e inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a567f52ab80b17c90e26971c3b2745a8b inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a567f52ab80b17c90e26971c3b2745a8b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a567f52ab80b17c90e26971c3b2745a8b">isAnnounceable</a> () const</td></tr>
 <tr class="memdesc:a567f52ab80b17c90e26971c3b2745a8b inherit pub_methods_structxsd_1_1m2m_1_1Resource"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the resource is announceable <br /></td></tr>
@@ -338,10 +482,6 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a7c14d21afb48157e3ee0c8f1d25fad35"><td class="memItemLeft" align="right" valign="top"><a id="a7c14d21afb48157e3ee0c8f1d25fad35"></a>
-static const <a class="el" href="structxsd_1_1m2m_1_1ResourceClass.html">ResourceClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a7c14d21afb48157e3ee0c8f1d25fad35">cdt_class</a></td></tr>
-<tr class="memdesc:a7c14d21afb48157e3ee0c8f1d25fad35"><td class="mdescLeft">&#160;</td><td class="mdescRight">resource class details <br /></td></tr>
-<tr class="separator:a7c14d21afb48157e3ee0c8f1d25fad35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7294cac2d3f643370cd5f40b248632b"><td class="memItemLeft" align="right" valign="top"><a id="ac7294cac2d3f643370cd5f40b248632b"></a>
 static constexpr <a class="el" href="namespacexsd_1_1m2m.html#a77fbecdd646720994270ca1749c46ea6">ResourceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#ac7294cac2d3f643370cd5f40b248632b">resource_type</a> = ResourceType::remoteCSEAnnc</td></tr>
 <tr class="memdesc:ac7294cac2d3f643370cd5f40b248632b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This resource's ResourceType. <br /></td></tr>
@@ -350,6 +490,10 @@ static constexpr <a class="el" href="namespacexsd_1_1m2m.html#a77fbecdd646720994
 static constexpr <a class="el" href="namespacexsd_1_1m2m.html#ae0b019c7a150b7d0f5786ecdb8450400">BaseResourceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a9354ea0d4239041c5dc72836a198f8d3">base_resource_type</a> = BaseResourceType::AnnouncedResource</td></tr>
 <tr class="memdesc:a9354ea0d4239041c5dc72836a198f8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This resource's BaseResourceType. <br /></td></tr>
 <tr class="separator:a9354ea0d4239041c5dc72836a198f8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c14d21afb48157e3ee0c8f1d25fad35"><td class="memItemLeft" align="right" valign="top"><a id="a7c14d21afb48157e3ee0c8f1d25fad35"></a>
+static const <a class="el" href="structxsd_1_1m2m_1_1ResourceClass.html">ResourceClass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a7c14d21afb48157e3ee0c8f1d25fad35">cdt_class</a></td></tr>
+<tr class="memdesc:a7c14d21afb48157e3ee0c8f1d25fad35"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource.">Resource</a> class details. <br /></td></tr>
+<tr class="separator:a7c14d21afb48157e3ee0c8f1d25fad35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a170aa95cb885f14110b17aa21cfdddbd"><td class="memItemLeft" align="right" valign="top"><a id="a170aa95cb885f14110b17aa21cfdddbd"></a>
 static const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a170aa95cb885f14110b17aa21cfdddbd">qualifiedShortName</a></td></tr>
 <tr class="memdesc:a170aa95cb885f14110b17aa21cfdddbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The qualified short name ('<a class="el" href="namespacexsd_1_1m2m.html" title="The xsd::m2m namespace.">m2m</a>:csrA') <br /></td></tr>
@@ -370,6 +514,11 @@ static constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a 
 static constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1RemoteCSEAnnc.html#a49d5d84d52c2bbbad1f28c0df93d15ef">childResourceTypeNameCount</a> = 14</td></tr>
 <tr class="memdesc:a49d5d84d52c2bbbad1f28c0df93d15ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of resource type names in the set. <br /></td></tr>
 <tr class="separator:a49d5d84d52c2bbbad1f28c0df93d15ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_structxsd_1_1m2m_1_1AnnouncedResource"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structxsd_1_1m2m_1_1AnnouncedResource')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html">xsd::m2m::AnnouncedResource</a></td></tr>
+<tr class="memitem:a80989b805f02b95ac11f0e2cbeb3565f inherit pub_static_attribs_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memItemLeft" align="right" valign="top"><a id="a80989b805f02b95ac11f0e2cbeb3565f"></a>
+static constexpr <a class="el" href="namespacexsd_1_1m2m.html#ae0b019c7a150b7d0f5786ecdb8450400">BaseResourceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1AnnouncedResource.html#a80989b805f02b95ac11f0e2cbeb3565f">base_resource_type</a> = BaseResourceType::Resource</td></tr>
+<tr class="memdesc:a80989b805f02b95ac11f0e2cbeb3565f inherit pub_static_attribs_structxsd_1_1m2m_1_1AnnouncedResource"><td class="mdescLeft">&#160;</td><td class="mdescRight">This resource's BaseResourceType. <br /></td></tr>
+<tr class="separator:a80989b805f02b95ac11f0e2cbeb3565f inherit pub_static_attribs_structxsd_1_1m2m_1_1AnnouncedResource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_structxsd_1_1m2m_1_1Resource"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_structxsd_1_1m2m_1_1Resource')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="structxsd_1_1m2m_1_1Resource.html">xsd::m2m::Resource</a></td></tr>
 <tr class="memitem:a260642b6186b98559cb7bdf283bf78a8 inherit pub_static_attribs_structxsd_1_1m2m_1_1Resource"><td class="memItemLeft" align="right" valign="top"><a id="a260642b6186b98559cb7bdf283bf78a8"></a>
 static const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxsd_1_1m2m_1_1Resource.html#a260642b6186b98559cb7bdf283bf78a8">qualifiedShortName</a></td></tr>

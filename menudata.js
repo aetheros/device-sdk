@@ -48,14 +48,17 @@ var menudata={children:[
 {text:"s",url:"namespacemembers_s.html#index_s"},
 {text:"t",url:"namespacemembers_t.html#index_t"},
 {text:"u",url:"namespacemembers_u.html#index_u"},
+{text:"v",url:"namespacemembers_v.html#index_v"},
 {text:"x",url:"namespacemembers_x.html#index_x"}]},
 {text:"Functions",url:"namespacemembers_func.html",children:[
-{text:"g",url:"namespacemembers_func.html#index_g"},
+{text:"c",url:"namespacemembers_func.html#index_c"},
+{text:"g",url:"namespacemembers_func_g.html#index_g"},
 {text:"l",url:"namespacemembers_func_l.html#index_l"},
 {text:"m",url:"namespacemembers_func_m.html#index_m"},
 {text:"o",url:"namespacemembers_func_o.html#index_o"},
 {text:"s",url:"namespacemembers_func_s.html#index_s"},
-{text:"t",url:"namespacemembers_func_t.html#index_t"}]},
+{text:"t",url:"namespacemembers_func_t.html#index_t"},
+{text:"v",url:"namespacemembers_func_v.html#index_v"}]},
 {text:"Variables",url:"namespacemembers_vars.html"},
 {text:"Typedefs",url:"namespacemembers_type.html",children:[
 {text:"a",url:"namespacemembers_type.html#index_a"},
@@ -167,6 +170,7 @@ var menudata={children:[
 {text:"Typedefs",url:"functions_type.html",children:[
 {text:"b",url:"functions_type.html#index_b"},
 {text:"c",url:"functions_type_c.html#index_c"},
+{text:"d",url:"functions_type_d.html#index_d"},
 {text:"i",url:"functions_type_i.html#index_i"},
 {text:"n",url:"functions_type_n.html#index_n"},
 {text:"r",url:"functions_type_r.html#index_r"},

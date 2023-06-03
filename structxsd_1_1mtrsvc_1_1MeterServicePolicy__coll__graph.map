@@ -1,7 +1,5 @@
 <map id="xsd::mtrsvc::MeterServicePolicy" name="xsd::mtrsvc::MeterServicePolicy">
-<area shape="rect" id="node1" title="Class representation of xsd type mtrsvc:meterServicePolicy." alt="" coords="101,185,293,227"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="5,89,169,115"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="34,5,141,32"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="193,81,421,123"/>
-<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="215,5,399,32"/>
+<area shape="rect" id="node1" title="Class representation of xsd type mtrsvc:meterServicePolicy." alt="" coords="5,155,197,196"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="19,80,183,107"/>
+<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="48,5,155,32"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="xsd::xs::ComplexType" name="xsd::xs::ComplexType">
-<area shape="rect" id="node1" title="The base class of all XS complex types." alt="" coords="160,1991,324,2017"/>
+<area shape="rect" id="node1" title="The base class of all XS complex types." alt="" coords="160,2016,324,2043"/>
 <area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1AccessControlRule.html" title="Class representation of xsd type m2m:accessControlRule." alt="" coords="407,5,623,32"/>
 <area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1AccessControlRule_1_1AccessControlContexts.html" title="Class representation of xsd type m2m:accessControlRule.accessControlContexts." alt="" coords="407,57,623,98"/>
 <area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1AccessControlRule_1_1AccessControlContexts_1_1AccessControlIpAddresses.html" title="Class representation of xsd type m2m:accessControlRule.accessControlContexts.accessControlIpAddresses..." alt="" coords="407,123,623,179"/>
@@ -63,16 +63,17 @@
 <area shape="rect" id="node108" href="$structxsd_1_1m2m_1_1TokenPermission.html" title="Class representation of xsd type m2m:tokenPermission." alt="" coords="413,3369,617,3396"/>
 <area shape="rect" id="node109" href="$structxsd_1_1m2m_1_1TokenPermissions.html" title="Class representation of xsd type m2m:tokenPermissions." alt="" coords="410,3420,621,3447"/>
 <area shape="rect" id="node110" href="$structxsd_1_1m2m_1_1UploadArgsType.html" title="Class representation of xsd type m2m:uploadArgsType." alt="" coords="415,3471,615,3497"/>
-<area shape="rect" id="node111" href="$structxsd_1_1mtrsvc_1_1MeterRead.html" title="Class representation of xsd type mtrsvc:meterRead." alt="" coords="427,3521,604,3548"/>
-<area shape="rect" id="node112" href="$structxsd_1_1mtrsvc_1_1MeterReadSchedule.html" title="Class representation of xsd type mtrsvc:meterReadSchedule." alt="" coords="397,3572,633,3599"/>
-<area shape="rect" id="node113" href="$structxsd_1_1mtrsvc_1_1MeterServicePolicy.html" title="Class representation of xsd type mtrsvc:meterServicePolicy." alt="" coords="419,3623,611,3665"/>
-<area shape="rect" id="node114" href="$structxsd_1_1mtrsvc_1_1MeterSvcData.html" title="Class representation of xsd type mtrsvc:meterSvcData." alt="" coords="416,3689,615,3716"/>
-<area shape="rect" id="node115" href="$structxsd_1_1mtrsvc_1_1PowerQualityData.html" title="Class representation of xsd type mtrsvc:powerQualityData." alt="" coords="403,3740,627,3767"/>
-<area shape="rect" id="node116" href="$structxsd_1_1mtrsvc_1_1ScheduleInterval.html" title="Class representation of xsd type mtrsvc:scheduleInterval." alt="" coords="408,3791,623,3817"/>
-<area shape="rect" id="node117" href="$structxsd_1_1mtrsvc_1_1SummationData.html" title="Class representation of xsd type mtrsvc:summationData." alt="" coords="409,3841,621,3868"/>
-<area shape="rect" id="node118" href="$structxsd_1_1mtrsvc_1_1TimeSchedule.html" title="Class representation of xsd type mtrsvc:timeSchedule." alt="" coords="416,3892,615,3919"/>
-<area shape="rect" id="node119" href="$classxsd_1_1xs_1_1SimpleContentType.html" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="414,3943,617,3969"/>
-<area shape="rect" id="node2" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,1991,112,2017"/>
+<area shape="rect" id="node111" href="$structxsd_1_1mtrsvc_1_1MeterControlSchedule.html" title="Class representation of xsd type mtrsvc:meterControlSchedule." alt="" coords="420,3522,611,3563"/>
+<area shape="rect" id="node112" href="$structxsd_1_1mtrsvc_1_1MeterRead.html" title="Class representation of xsd type mtrsvc:meterRead." alt="" coords="427,3588,604,3615"/>
+<area shape="rect" id="node113" href="$structxsd_1_1mtrsvc_1_1MeterReadSchedule.html" title="Class representation of xsd type mtrsvc:meterReadSchedule." alt="" coords="397,3639,633,3665"/>
+<area shape="rect" id="node114" href="$structxsd_1_1mtrsvc_1_1MeterServicePolicy.html" title="Class representation of xsd type mtrsvc:meterServicePolicy." alt="" coords="419,3690,611,3731"/>
+<area shape="rect" id="node115" href="$structxsd_1_1mtrsvc_1_1MeterSvcData.html" title="Class representation of xsd type mtrsvc:meterSvcData." alt="" coords="416,3756,615,3783"/>
+<area shape="rect" id="node116" href="$structxsd_1_1mtrsvc_1_1PowerQualityData.html" title="Class representation of xsd type mtrsvc:powerQualityData." alt="" coords="403,3807,627,3833"/>
+<area shape="rect" id="node117" href="$structxsd_1_1mtrsvc_1_1ScheduleInterval.html" title="Class representation of xsd type mtrsvc:scheduleInterval." alt="" coords="408,3857,623,3884"/>
+<area shape="rect" id="node118" href="$structxsd_1_1mtrsvc_1_1SummationData.html" title="Class representation of xsd type mtrsvc:summationData." alt="" coords="409,3908,621,3935"/>
+<area shape="rect" id="node119" href="$structxsd_1_1mtrsvc_1_1TimeSchedule.html" title="Class representation of xsd type mtrsvc:timeSchedule." alt="" coords="416,3959,615,3985"/>
+<area shape="rect" id="node120" href="$classxsd_1_1xs_1_1SimpleContentType.html" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="414,4009,617,4036"/>
+<area shape="rect" id="node2" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,2016,112,2043"/>
 <area shape="rect" id="node41" href="$classm2m_1_1Notification.html" title="A representation of a oneM2M notification received by the AE." alt="" coords="770,2067,909,2093"/>
 <area shape="rect" id="node54" href="$structxsd_1_1m2m_1_1AnnounceableSubordinateResource.html" title="Class representation of xsd type m2m:announceableSubordinateResource." alt="" coords="707,2477,972,2518"/>
 <area shape="rect" id="node56" href="$structxsd_1_1m2m_1_1AnnouncedResource.html" title="Class representation of xsd type m2m:announcedResource." alt="" coords="726,2615,953,2641"/>
@@ -118,8 +119,8 @@
 <area shape="rect" id="node91" href="$structxsd_1_1m2m_1_1Firmware.html" title="Class representation of xsd type m2m:firmware." alt="" coords="1693,3100,1849,3127"/>
 <area shape="rect" id="node92" href="$structxsd_1_1m2m_1_1McuFirmware.html" title="Class representation of xsd type m2m:mcuFirmware." alt="" coords="1680,3151,1863,3177"/>
 <area shape="rect" id="node93" href="$structxsd_1_1m2m_1_1ModuleInfoExt.html" title="Class representation of xsd type m2m:moduleInfoExt." alt="" coords="1677,3201,1866,3228"/>
-<area shape="rect" id="node120" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="724,3902,955,3943"/>
-<area shape="rect" id="node123" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title="The concrete class that binds SimpleContentType to the type it represents." alt="" coords="724,3967,955,4009"/>
-<area shape="rect" id="node121" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="1047,3884,1258,3911"/>
-<area shape="rect" id="node122" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="1061,3935,1244,3961"/>
+<area shape="rect" id="node121" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="724,3969,955,4010"/>
+<area shape="rect" id="node124" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title="The concrete class that binds SimpleContentType to the type it represents." alt="" coords="724,4034,955,4075"/>
+<area shape="rect" id="node122" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="1047,3951,1258,3977"/>
+<area shape="rect" id="node123" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="1061,4001,1244,4028"/>
 </map>
