@@ -88,6 +88,10 @@ typedef std::function&lt; void(<a class="el" href="classm2m_1_1Notification.html
 typedef std::function&lt; void(<a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">ResponsePrimitive_ptr</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#ae548df02c8c8c90db42f45789412f26e">ResponseCallback</a></td></tr>
 <tr class="memdesc:ae548df02c8c8c90db42f45789412f26e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type for receiving Responses. <br /></td></tr>
 <tr class="separator:ae548df02c8c8c90db42f45789412f26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca66f610ecfa00e0c60f7f169910b4c"><td class="memItemLeft" align="right" valign="top"><a id="a4ca66f610ecfa00e0c60f7f169910b4c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a4ca66f610ecfa00e0c60f7f169910b4c">ConfigCallback</a> = std::function&lt; void(<a class="el" href="classxsd_1_1xs_1_1AnyType.html">xsd::xs::AnyType</a>)&gt;</td></tr>
+<tr class="memdesc:a4ca66f610ecfa00e0c60f7f169910b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback type for receiving app config updates. <br /></td></tr>
+<tr class="separator:a4ca66f610ecfa00e0c60f7f169910b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -162,8 +166,31 @@ const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a cl
 <tr class="separator:ac4f3d582a374f3b480b641645a27c923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8adef257cd0484d5dd29a8ea801a08dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a8adef257cd0484d5dd29a8ea801a08dd">sendRequest</a> (const <a class="el" href="classm2m_1_1Request.html">Request</a> &amp;request)</td></tr>
 <tr class="separator:a8adef257cd0484d5dd29a8ea801a08dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dbca2167b399bba2b842a8bc043c053"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a4dbca2167b399bba2b842a8bc043c053">sendRoleRequest</a> (const <a class="el" href="classm2m_1_1Request.html">Request</a> &amp;request)</td></tr>
+<tr class="separator:a4dbca2167b399bba2b842a8bc043c053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a417d76dd29df520ad92cf6e48ae4d204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a417d76dd29df520ad92cf6e48ae4d204">getResponse</a> (<a class="el" href="classm2m_1_1Request.html">Request</a> &amp;request)</td></tr>
 <tr class="separator:a417d76dd29df520ad92cf6e48ae4d204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accdf3ab472a32fe205def0ebe7dea2c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#accdf3ab472a32fe205def0ebe7dea2c1">retrieveResource</a> (std::string const &amp;path)</td></tr>
+<tr class="separator:accdf3ab472a32fe205def0ebe7dea2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdefe65e9a4f7bf5ff5e9d92ab66f24f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#abdefe65e9a4f7bf5ff5e9d92ab66f24f">deleteResource</a> (std::string const &amp;path)</td></tr>
+<tr class="separator:abdefe65e9a4f7bf5ff5e9d92ab66f24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c90a8d26314a9644928ffe7794e176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#ac5c90a8d26314a9644928ffe7794e176">createSimpleContainer</a> (std::string const &amp;parent, std::string const &amp;name, OptionalAcpType const &amp;acpType={}, OptionalMaxInstances maxNrOfInstances={})</td></tr>
+<tr class="separator:ac5c90a8d26314a9644928ffe7794e176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64dbb6ec60e1530ffbe569e5ed2a68f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a64dbb6ec60e1530ffbe569e5ed2a68f7">ensureSimpleContainer</a> (std::string const &amp;parent, std::string const &amp;name, OptionalAcpType const &amp;acpType={}, OptionalMaxInstances maxNrOfInstances={})</td></tr>
+<tr class="separator:a64dbb6ec60e1530ffbe569e5ed2a68f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb87e19e1b5cc7af9a52634632935880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#acb87e19e1b5cc7af9a52634632935880">createSimpleContentInstance</a> (std::string const &amp;container, std::string const &amp;name, <a class="el" href="classxsd_1_1xs_1_1AnyType.html">xsd::xs::AnyType</a> const &amp;content)</td></tr>
+<tr class="separator:acb87e19e1b5cc7af9a52634632935880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50f3fa068c67a00e552e5adcbe7d096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#af50f3fa068c67a00e552e5adcbe7d096">createSimpleSubscription</a> (std::string const &amp;target, std::string const &amp;name, <a class="el" href="structxsd_1_1m2m_1_1EventNotificationCriteria.html">xsd::m2m::EventNotificationCriteria</a> eventNotificationCriteria)</td></tr>
+<tr class="separator:af50f3fa068c67a00e552e5adcbe7d096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc4ca6ed2a9ce1204799510bff98f53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#afcc4ca6ed2a9ce1204799510bff98f53">ensureSimpleSubscription</a> (std::string const &amp;target, std::string const &amp;name, <a class="el" href="structxsd_1_1m2m_1_1EventNotificationCriteria.html">xsd::m2m::EventNotificationCriteria</a> eventNotificationCriteria)</td></tr>
+<tr class="separator:afcc4ca6ed2a9ce1204799510bff98f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af865a3e44b1ffdf85182976e95e89911"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#af865a3e44b1ffdf85182976e95e89911">initConfig</a> (<a class="el" href="classm2m_1_1AppEntity.html#a4ca66f610ecfa00e0c60f7f169910b4c">ConfigCallback</a> configHandler, bool initialCallback=true)</td></tr>
+<tr class="separator:af865a3e44b1ffdf85182976e95e89911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14588433b3d8e281f9cf2334aa854914"><td class="memItemLeft" align="right" valign="top"><a id="a14588433b3d8e281f9cf2334aa854914"></a>
+<a class="el" href="structxsd_1_1m2m_1_1ContentInstance.html">xsd::m2m::ContentInstance</a>&#160;</td><td class="memItemRight" valign="bottom"><b>retrieveConfigContentInstance</b> ()</td></tr>
+<tr class="separator:a14588433b3d8e281f9cf2334aa854914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f1015f233f8d8d5aba4a14e49e6772a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classxsd_1_1xs_1_1AnyType.html">xsd::xs::AnyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classm2m_1_1AppEntity.html#a4f1015f233f8d8d5aba4a14e49e6772a">retrieveConfig</a> ()</td></tr>
+<tr class="separator:a4f1015f233f8d8d5aba4a14e49e6772a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Activate the AE</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Each of these methods attempts to activate the AE. Activation includes registering an unregistered AE, or updating the POA of a registered AE. If the registration attempt fails, the <a class="el" href="namespacem2m.html#a8cb66fd381448d2c44b74b85823870df">ActivationFailureReason</a> will indicate the reason for the failure. </p>
 </div></td></tr>
@@ -354,6 +381,260 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
 
 </div>
 </div>
+<a id="ac5c90a8d26314a9644928ffe7794e176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c90a8d26314a9644928ffe7794e176">&#9670;&nbsp;</a></span>createSimpleContainer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a> m2m::AppEntity::createSimpleContainer </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OptionalAcpType const &amp;&#160;</td>
+          <td class="paramname"><em>acpType</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OptionalMaxInstances&#160;</td>
+          <td class="paramname"><em>maxNrOfInstances</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Create a new simple container. Wait for a new child container of parent to be created. </p><dl class="section return"><dt>Returns</dt><dd>a ResponsePrimitive shared pointer </dd></dl>
+
+</div>
+</div>
+<a id="acb87e19e1b5cc7af9a52634632935880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb87e19e1b5cc7af9a52634632935880">&#9670;&nbsp;</a></span>createSimpleContentInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a> m2m::AppEntity::createSimpleContentInstance </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classxsd_1_1xs_1_1AnyType.html">xsd::xs::AnyType</a> const &amp;&#160;</td>
+          <td class="paramname"><em>content</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Create new simple content instance. Wait for a new simple content instance to be created under container. </p><dl class="section return"><dt>Returns</dt><dd>a ResponsePrimitive shared pointer </dd></dl>
+
+</div>
+</div>
+<a id="af50f3fa068c67a00e552e5adcbe7d096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50f3fa068c67a00e552e5adcbe7d096">&#9670;&nbsp;</a></span>createSimpleSubscription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a> m2m::AppEntity::createSimpleSubscription </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structxsd_1_1m2m_1_1EventNotificationCriteria.html">xsd::m2m::EventNotificationCriteria</a>&#160;</td>
+          <td class="paramname"><em>eventNotificationCriteria</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Create a new simple subscription. Wait for a new simple subscription to be created on target. </p><dl class="section return"><dt>Returns</dt><dd>a ResponsePrimitive shared pointer </dd></dl>
+
+</div>
+</div>
+<a id="abdefe65e9a4f7bf5ff5e9d92ab66f24f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdefe65e9a4f7bf5ff5e9d92ab66f24f">&#9670;&nbsp;</a></span>deleteResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a> m2m::AppEntity::deleteResource </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Delete a resource. Wait for a resource to be deleted. </p><dl class="section return"><dt>Returns</dt><dd>a ResponsePrimitive shared pointer </dd></dl>
+
+</div>
+</div>
+<a id="a64dbb6ec60e1530ffbe569e5ed2a68f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64dbb6ec60e1530ffbe569e5ed2a68f7">&#9670;&nbsp;</a></span>ensureSimpleContainer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool m2m::AppEntity::ensureSimpleContainer </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OptionalAcpType const &amp;&#160;</td>
+          <td class="paramname"><em>acpType</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OptionalMaxInstances&#160;</td>
+          <td class="paramname"><em>maxNrOfInstances</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ensure a container has been created. Retrun true if a container already exists or was able to be created. </p><dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
+
+</div>
+</div>
+<a id="afcc4ca6ed2a9ce1204799510bff98f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcc4ca6ed2a9ce1204799510bff98f53">&#9670;&nbsp;</a></span>ensureSimpleSubscription()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool m2m::AppEntity::ensureSimpleSubscription </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structxsd_1_1m2m_1_1EventNotificationCriteria.html">xsd::m2m::EventNotificationCriteria</a>&#160;</td>
+          <td class="paramname"><em>eventNotificationCriteria</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ensure a subscription has been created. Retrun true if a subscription already exists or was able to be created. </p><dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
+
+</div>
+</div>
 <a id="a323d9fb4cefbec9c969eca1a8d1bacf8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a323d9fb4cefbec9c969eca1a8d1bacf8">&#9670;&nbsp;</a></span>getActivationFailureReason()</h2>
 
@@ -413,6 +694,35 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
 
 </div>
 </div>
+<a id="af865a3e44b1ffdf85182976e95e89911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af865a3e44b1ffdf85182976e95e89911">&#9670;&nbsp;</a></span>initConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool m2m::AppEntity::initConfig </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classm2m_1_1AppEntity.html#a4ca66f610ecfa00e0c60f7f169910b4c">ConfigCallback</a>&#160;</td>
+          <td class="paramname"><em>configHandler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>initialCallback</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Initialize the app-config interface. Establishes internal state of the app-config interface and registers a config handler to be called when the configuration changes. If initialCallback is true, also retrieve the config and invoke the callback before returning. </p><dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
+
+</div>
+</div>
 <a id="ac4f3d582a374f3b480b641645a27c923"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4f3d582a374f3b480b641645a27c923">&#9670;&nbsp;</a></span>newRequest()</h2>
 
@@ -465,6 +775,51 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
 
 </div>
 </div>
+<a id="a4f1015f233f8d8d5aba4a14e49e6772a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f1015f233f8d8d5aba4a14e49e6772a">&#9670;&nbsp;</a></span>retrieveConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classxsd_1_1xs_1_1AnyType.html">xsd::xs::AnyType</a> m2m::AppEntity::retrieveConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrive the current configuration. Wait for and return the current app-config, or empty json "{}" if none found. </p><dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classxsd_1_1xs_1_1AnyType.html" title="xs:anyType implementation">xsd::xs::AnyType</a> </dd></dl>
+
+</div>
+</div>
+<a id="accdf3ab472a32fe205def0ebe7dea2c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accdf3ab472a32fe205def0ebe7dea2c1">&#9670;&nbsp;</a></span>retrieveResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacem2m.html#ab4f706cb4654b0a4196c7b93f1fd8152">m2m::ResponsePrimitive_ptr</a> m2m::AppEntity::retrieveResource </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieve a resource. Wait for and return a resource. </p><dl class="section return"><dt>Returns</dt><dd>a ResponsePrimitive shared pointer </dd></dl>
+
+</div>
+</div>
 <a id="a8adef257cd0484d5dd29a8ea801a08dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8adef257cd0484d5dd29a8ea801a08dd">&#9670;&nbsp;</a></span>sendRequest()</h2>
 
@@ -483,6 +838,25 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Request</b></td></tr
 <p>Send a request. Send the request defined by the <a class="el" href="classm2m_1_1Request.html" title="An object representing a oneM2M request from an AE.">Request</a> object. This function queues the request for transmission and returns immediately. </p>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="aos_metering_app_8cpp-example.html#a25">aos_metering_app.cpp</a>, and <a class="el" href="aos_openfmb_adapter_8cpp-example.html#a30">aos_openfmb_adapter.cpp</a>.</dd>
 </dl>
+
+</div>
+</div>
+<a id="a4dbca2167b399bba2b842a8bc043c053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dbca2167b399bba2b842a8bc043c053">&#9670;&nbsp;</a></span>sendRoleRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void m2m::AppEntity::sendRoleRequest </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classm2m_1_1Request.html">Request</a> &amp;&#160;</td>
+          <td class="paramname"><em>request</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Send a request that includes the "app-id@&lt;app-id&gt;" roleId. Send the request defined by the <a class="el" href="classm2m_1_1Request.html" title="An object representing a oneM2M request from an AE.">Request</a> object, but include the roleId set as "app-id@&lt;app-id&gt;" This function queues the request for transmission and returns immediately. </p>
 
 </div>
 </div>

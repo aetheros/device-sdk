@@ -67,6 +67,7 @@ $(function() {
 <div class="contents">
 <p>An OpenFMB Adapter App.</p>
 <div class="fragment"><div class="line"><span class="comment">// vim: sw=4 expandtab</span></div>
+<div class="line"><span class="comment">// Copyright (c) Aetheros, Inc.  See COPYRIGHT</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="AppMain_8hpp.html">aos/AppMain.hpp</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="Log_8hpp.html">aos/Log.hpp</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="Mqtt_8hpp.html">aos/Mqtt.hpp</a>&gt;</span></div>
@@ -79,7 +80,9 @@ $(function() {
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="m2m_2Names_8hpp.html">xsd/m2m/Names.hpp</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MeterReadSchedule_8hpp.html">xsd/mtrsvc/MeterReadSchedule.hpp</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="m2m_2Names_8hpp.html">xsd/m2m/Names.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MeterServicePolicy_8hpp.html">xsd/mtrsvc/MeterServicePolicy.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="MeterRead_8hpp.html">xsd/mtrsvc/MeterRead.hpp</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="mtrsvc_2Names_8hpp.html">xsd/mtrsvc/Names.hpp</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;commonmodule/commonmodule.pb.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;metermodule/metermodule.pb.h&gt;</span></div>
@@ -301,7 +304,7 @@ $(function() {
 <div class="line">    meterReadSchedule.<a name="a40"></a><a class="code" href="structxsd_1_1mtrsvc_1_1MeterReadSchedule.html#a3c30266ebc9f613c4ab34833083db53d">timeSchedule</a> = std::move(timeSchedule);</div>
 <div class="line"> </div>
 <div class="line">    <a name="_a41"></a><a class="code" href="structxsd_1_1mtrsvc_1_1MeterServicePolicy.html">xsd::mtrsvc::MeterServicePolicy</a> meterServicePolicy;</div>
-<div class="line">    meterServicePolicy.meterReadSchedule = std::move(meterReadSchedule);</div>
+<div class="line">    meterServicePolicy = std::move(meterReadSchedule);</div>
 <div class="line"> </div>
 <div class="line">    <a name="_a42"></a><a class="code" href="structxsd_1_1m2m_1_1ContentInstance.html">xsd::m2m::ContentInstance</a> policyInst = <a name="a43"></a><a class="code" href="structxsd_1_1m2m_1_1ContentInstance.html#af5b0f0923882cb97c0f461f188725431">xsd::m2m::ContentInstance::Create</a>();</div>
 <div class="line">    policyInst.<a name="a44"></a><a class="code" href="structxsd_1_1m2m_1_1ContentInstance.html#aa33ab06bcfa535e3206a010fa0cce9fe">content</a> = <a name="a45"></a><a class="code" href="namespacexsd.html#aa3bf631fe942b8c9b85cb5a89edd459b">xsd::toAnyTypeUnnamed</a>(meterServicePolicy);</div>
@@ -446,13 +449,15 @@ $(function() {
 <div class="ttc" id="aLog_8hpp_html_a4576ca8197e418532f79f7b308bae802"><div class="ttname"><a href="Log_8hpp.html#a4576ca8197e418532f79f7b308bae802">logDebug</a></div><div class="ttdeci">#define logDebug(message)</div><div class="ttdoc">Write a debug-level log.</div><div class="ttdef"><b>Definition:</b> Log.hpp:61</div></div>
 <div class="ttc" id="aLog_8hpp_html_a47890281961fbfaef127b31e67194323"><div class="ttname"><a href="Log_8hpp.html#a47890281961fbfaef127b31e67194323">logError</a></div><div class="ttdeci">#define logError(message)</div><div class="ttdoc">Write a error-level log.</div><div class="ttdef"><b>Definition:</b> Log.hpp:73</div></div>
 <div class="ttc" id="aMeterReadSchedule_8hpp_html"><div class="ttname"><a href="MeterReadSchedule_8hpp.html">MeterReadSchedule.hpp</a></div></div>
+<div class="ttc" id="aMeterRead_8hpp_html"><div class="ttname"><a href="MeterRead_8hpp.html">MeterRead.hpp</a></div></div>
+<div class="ttc" id="aMeterServicePolicy_8hpp_html"><div class="ttname"><a href="MeterServicePolicy_8hpp.html">MeterServicePolicy.hpp</a></div></div>
 <div class="ttc" id="aMqtt_8hpp_html"><div class="ttname"><a href="Mqtt_8hpp.html">Mqtt.hpp</a></div><div class="ttdoc">MQTT Client support.</div></div>
 <div class="ttc" id="aSubscription_8hpp_html"><div class="ttname"><a href="Subscription_8hpp.html">Subscription.hpp</a></div></div>
 <div class="ttc" id="aTimestamp_8hpp_html"><div class="ttname"><a href="Timestamp_8hpp.html">Timestamp.hpp</a></div><div class="ttdoc">OneM2M Timestamp support.</div></div>
 <div class="ttc" id="aclassaos_1_1AppMain_html"><div class="ttname"><a href="classaos_1_1AppMain.html">aos::AppMain</a></div><div class="ttdoc">The SDK Application guard object.</div><div class="ttdef"><b>Definition:</b> AppMain.hpp:22</div></div>
 <div class="ttc" id="aclassaos_1_1mqtt_1_1Client_html"><div class="ttname"><a href="classaos_1_1mqtt_1_1Client.html">aos::mqtt::Client</a></div><div class="ttdef"><b>Definition:</b> Mqtt.hpp:57</div></div>
 <div class="ttc" id="aclassaos_1_1mqtt_1_1ThreadedBackgroundWorker_html"><div class="ttname"><a href="classaos_1_1mqtt_1_1ThreadedBackgroundWorker.html">aos::mqtt::ThreadedBackgroundWorker</a></div><div class="ttdef"><b>Definition:</b> Mqtt.hpp:165</div></div>
-<div class="ttc" id="aclassm2m_1_1AppEntity_html"><div class="ttname"><a href="classm2m_1_1AppEntity.html">m2m::AppEntity</a></div><div class="ttdoc">The main class for representing an AE (ApplicationEntity)</div><div class="ttdef"><b>Definition:</b> AppEntity.hpp:49</div></div>
+<div class="ttc" id="aclassm2m_1_1AppEntity_html"><div class="ttname"><a href="classm2m_1_1AppEntity.html">m2m::AppEntity</a></div><div class="ttdoc">The main class for representing an AE (ApplicationEntity)</div><div class="ttdef"><b>Definition:</b> AppEntity.hpp:51</div></div>
 <div class="ttc" id="aclassm2m_1_1AppEntity_html_a0aa465f42de5fa35ef7921a0a9a2d75e"><div class="ttname"><a href="classm2m_1_1AppEntity.html#a0aa465f42de5fa35ef7921a0a9a2d75e">m2m::AppEntity::setPoaUri</a></div><div class="ttdeci">void setPoaUri(const std::string &amp;uri)</div><div class="ttdoc">Set the AE's Point-of-access URI.</div></div>
 <div class="ttc" id="aclassm2m_1_1AppEntity_html_a323d9fb4cefbec9c969eca1a8d1bacf8"><div class="ttname"><a href="classm2m_1_1AppEntity.html#a323d9fb4cefbec9c969eca1a8d1bacf8">m2m::AppEntity::getActivationFailureReason</a></div><div class="ttdeci">ActivationFailureReason getActivationFailureReason() const</div></div>
 <div class="ttc" id="aclassm2m_1_1AppEntity_html_a3d3655547800123b1af91bd0bf8c65a0"><div class="ttname"><a href="classm2m_1_1AppEntity.html#a3d3655547800123b1af91bd0bf8c65a0">m2m::AppEntity::waitForever</a></div><div class="ttdeci">void waitForever()</div></div>
@@ -466,6 +471,7 @@ $(function() {
 <div class="ttc" id="aclassm2m_1_1Notification_html"><div class="ttname"><a href="classm2m_1_1Notification.html">m2m::Notification</a></div><div class="ttdoc">A representation of a oneM2M notification received by the AE.</div><div class="ttdef"><b>Definition:</b> Notification.hpp:19</div></div>
 <div class="ttc" id="aclassm2m_1_1Request_html"><div class="ttname"><a href="classm2m_1_1Request.html">m2m::Request</a></div><div class="ttdoc">An object representing a oneM2M request from an AE.</div><div class="ttdef"><b>Definition:</b> Request.hpp:44</div></div>
 <div class="ttc" id="am2m_2Names_8hpp_html"><div class="ttname"><a href="m2m_2Names_8hpp.html">Names.hpp</a></div></div>
+<div class="ttc" id="amtrsvc_2Names_8hpp_html"><div class="ttname"><a href="mtrsvc_2Names_8hpp.html">Names.hpp</a></div></div>
 <div class="ttc" id="anamespaceaos_1_1mqtt_html_ae013b2ac5f63846378495f2c3f1a55d2a7bef95a4257e9eca0ffabd3c726311e1"><div class="ttname"><a href="namespaceaos_1_1mqtt.html#ae013b2ac5f63846378495f2c3f1a55d2a7bef95a4257e9eca0ffabd3c726311e1">aos::mqtt::TLSVerifyMethod::Peer</a></div><div class="ttdeci">@ Peer</div></div>
 <div class="ttc" id="anamespaceaos_html_a05351237993dc77effa8bf53c119e46b"><div class="ttname"><a href="namespaceaos.html#a05351237993dc77effa8bf53c119e46b">aos::setLogLevel</a></div><div class="ttdeci">void setLogLevel(const LogLevel &amp;logLevel) DSO_API</div><div class="ttdoc">Set the current log level.</div></div>
 <div class="ttc" id="anamespaceaos_html_a8a6252cde343c0ea303f6df292b95f32aeded50d942c7c2d37d09ba8241ff017f"><div class="ttname"><a href="namespaceaos.html#a8a6252cde343c0ea303f6df292b95f32aeded50d942c7c2d37d09ba8241ff017f">aos::LogLevel::LOG_DEBUG</a></div><div class="ttdeci">@ LOG_DEBUG</div><div class="ttdoc">Debug level logging.</div></div>
