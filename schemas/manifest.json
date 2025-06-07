@@ -1,0 +1,267 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://aetheros.com/sdk/schemas/manifest.json",
+    "type": "object",
+    "title": "The AOS application manifest schema",
+    "description": "This schema describes the AOS manifest.json document for an application.",
+    "default": {},
+    "examples": [
+        {
+            "name": "aos_metering_app",
+            "summary": "Example MeteringService Application",
+            "description": "Collect summation and power quality data from the metering service",
+            "version": "1.0",
+            "release-date": "2021-04-02T22:55:09Z",
+            "exe-name": "aos_metering_app",
+            "m2m": {
+                "app-name": "metersvc-smpl",
+                "app-id": "Nra1.com.aos.iot",
+                "ae-rn": "metersvc-smpl"
+            },
+            "files": [
+                "aos_metering_app"
+            ],
+            "permissions": {
+                "max_cpu": 5.2,
+                "max_memory_mb": 1
+            }
+        }
+    ],
+    "properties": {
+        "name": {
+            "$id": "#name",
+            "type": "string",
+            "title": "The Application Name",
+            "description": "The name of the application.  Used for the package name and identifying the running app on the device.  Only alphanumic, '_' and '-' characters.",
+            "default": "",
+            "examples": [
+                "aos_metering_app"
+            ]
+        },
+        "summary": {
+            "$id": "#summary",
+            "type": "string",
+            "title": "Application Description",
+            "summary": "A short but descriptive summary of the application, for UI presentation.",
+            "default": "",
+            "examples": [
+                "Example MeteringService Application"
+            ]
+        },
+        "description": {
+            "$id": "#description",
+            "type": "string",
+            "title": "Application Description",
+            "description": "A description of the application.",
+            "default": "",
+            "examples": [
+                "Collect summation and power quality data from the metering service"
+            ]
+        },
+        "version": {
+            "$id": "#version",
+            "type": "string",
+            "title": "The Application Version",
+            "description": "The version of the application.",
+            "default": "",
+            "examples": [
+                "1.0"
+            ]
+        },
+        "release-date": {
+            "$id": "#release-date",
+            "type": "string",
+            "title": "The Application Release Date",
+            "description": "The date/time this package was released.  Timezone is UTC; Format is %Y%m%dT%H%M%SZ",
+            "default": "",
+            "examples": [
+                "2021-04-02T22:55:09Z"
+            ]
+        },
+        "exe-name": {
+            "$id": "#exe-name",
+            "type": "string",
+            "title": "The Executable Name",
+            "description": "The name of the executable binary representing the application. Default is #name",
+            "default": "",
+            "examples": [
+                "aos_metering_app"
+            ]
+        },
+        "m2m": {
+            "$id": "#m2m",
+            "type": "object",
+            "title": "oneM2M-specific application details",
+            "description": "Properties of the oneM2M application entity.",
+            "default": {},
+            "examples": [
+                {
+                    "app-name": "metersvc-smpl",
+                    "app-id": "Nra1.com.aos.iot",
+                    "ae-rn": "metersvc-smpl"
+                }
+            ],
+            "properties": {
+                "app-name": {
+                    "$id": "#m2m/app-name",
+                    "type": "string",
+                    "title": "The AE's appName attribute",
+                    "description": "The AE's appName attribute. TS-0001 9.6.5",
+                    "default": "",
+                    "examples": [
+                        "metersvc-smpl"
+                    ]
+                },
+                "app-id": {
+                    "$id": "#m2m/app-id",
+                    "type": "string",
+                    "title": "The AE's app-ID attribute",
+                    "description": "The AE's App-ID attribute. TS-0001 9.6.5",
+                    "default": "",
+                    "examples": [
+                        "Nra1.com.aos.iot"
+                    ]
+                },
+                "ae-rn": {
+                    "$id": "#m2m/ae-rn",
+                    "type": "string",
+                    "title": "The AE's resourceName attribute",
+                    "description": "The AE's resourceName attribute. Optional. TS-0001 9.6.5",
+                    "default": "",
+                    "examples": [
+                        "metersvc-smpl"
+                    ]
+                },
+                "cred-id": {
+                    "$id": "#m2m/cred-id",
+                    "type": "string",
+                    "title": "The AE's Credential ID",
+                    "description": "The AE's Credential ID.  This will be added automatically during app packaging.  Do not include in a file under revision control",
+                    "default": "",
+                    "examples": [
+                        "UTT9IYLASCZFO921"
+                    ]
+                }
+            },
+            "required": [
+                "app-name",
+                "app-id"
+            ],
+            "additionalProperties": true
+        },
+        "files": {
+            "$id": "#files",
+            "type": "array",
+            "uniqueItems": true,
+            "title": "File list",
+            "description": "The list of files to include in the package.",
+            "default": [],
+            "examples": [
+                [
+                    "aos_metering_app"
+                ]
+            ],
+            "items": {
+                "$id": "#files/items",
+                "type": "string",
+                "title": "Filename",
+                "description": "The name of a file to include in the package.",
+                "default": "",
+                "examples": [
+                    "aos_metering_app"
+                ]
+            }
+        },
+        "permissions": {
+            "$id": "#permissions",
+            "type": "object",
+            "title": "Cgroup and group configuration",
+            "description": "Resource utilization limits and application permissions",
+            "default": {},
+            "examples": [
+                {
+                    "max_cpu": 5.2,
+                    "max_memory_mb": 1
+                }
+            ],
+            "properties": {
+                "max_cpu": {
+                    "$id": "#permissions/max_cpu",
+                    "type": "float",
+                    "title": "Maximum CPU",
+                    "description": "Maximum percentage of CPU time usable by the application",
+                    "default": "",
+                    "examples": [
+                        "5.2"
+                    ]
+                },
+                "max_memory_mb": {
+                    "$id": "#permissions/max_memory_mb",
+                    "type": "unsigned int",
+                    "title": "Maximum Memory",
+                    "description": "Maximum memory in megabytes (MB) usable by the application. Valid range: 1 <= value <= MAX_SYSTEM_RAM",
+                    "default": "",
+                    "examples": [
+                        "1"
+                    ]
+                },
+                "groups": {
+                    "$id": "#permissions/groups",
+                    "type": "array",
+                    "uniqueItems": true,
+                    "title": "Group list",
+                    "description": "The list of groups the app will be added to.",
+                    "default": [],
+                    "examples": [
+                        [ "waveform_provider" ],
+                        [ "waveform_stream" ]
+                    ],
+                    "items": {
+                        "$id": "#groups/items",
+                        "type": "string",
+                        "title": "Group",
+                        "description": "The name of a group to add the app to.",
+                        "default": "",
+                        "examples": [
+                            "waveform_provider",
+                            "waveform_stream"
+                        ]
+                    }
+                },
+                "networks": {
+                    "$id": "#networks",
+                    "type": "array",
+                    "uniqueItems": true,
+                    "title": "Networks list",
+                    "description": "The list of whitelisted networks the application has access to.",
+                    "default": [],
+                    "examples": [
+                        [
+                            "1.2.3.4/32",
+                            "8.8.0.0/16",
+                            "wifi",
+                            "wisun"
+                        ]
+                    ],
+                    "items": {
+                        "$id": "#networks/items",
+                        "type": "string",
+                        "title": "Network",
+                        "description": "The name of a network to whitelist.",
+                        "default": "",
+                        "examples": [
+                            "1.2.3.4/32"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "name",
+        "m2m",
+        "files"
+    ],
+    "additionalProperties": true
+}
+
