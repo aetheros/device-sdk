@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AOS v.6.0 Metering Services schema -->
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:mtrsvc="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:include schemaLocation="commonTypes.xsd" />
+
+<xs:simpleType name="lcSwitchNum">
+  <xs:restriction base="xs:integer">
+	<xs:minInclusive value="1"/>
+	<xs:maxInclusive value="3"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="controlType">
+  <xs:restriction base="xs:string">
+	<enumeration value="waveFormOn"/>
+	<enumeration value="waveFormOff"/>
+	<enumeration value="loadControlOn"/>
+	<enumeration value="loadControlOff"/>
+	<enumeration value="serviceOn"/>
+	<enumeration value="serviceOff"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="evseChargeLevel">
+  <annotation>
+    <documentation>Allowable charge current in percent</documentation>
+  </annotation>
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="0"/>
+    <xs:maxInclusive value="100"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="evseControlSchedule">
+  <sequence>
+    <xs:element name="chargeLevel" shortName="clev" type="evseChargeLevel"/>
+    <xs:element name="chargeSchedule" shortName="chsched" type="timestamp"/>
+  </sequence>
+</xs:complexType>
+
+<xs:complexType name="meterControlSchedule">
+  <sequence>
+    <xs:element name="controlType" shortName="ctype" type="controlType"/>
+    <xs:element name="controlSchedule" shortName="csched" type="timestamp"/>
+  </sequence>
+  <xs:attribute name="lcSwitchNum" shortName="lcsn" type="lcSwitchNum" use="optional"/>
+</xs:complexType>
+
+</xs:schema>

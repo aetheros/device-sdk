@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AOS v.6.0 Metering Services schema -->
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:mtrsvc="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:include schemaLocation="commonTypes.xsd" />
+
+<xs:simpleType name="readingType">
+  <xs:restriction base="xs:string">
+	<xs:pattern value="\b(powerQuality)\b|\b(summations)\b"></xs:pattern>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="scheduleInterval">
+  <xs:sequence>
+    <xs:element name="end" shortName="end" type="timestamp"/>
+    <xs:element name="start" shortName="start" type="timestamp"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="timeSchedule">
+  <xs:sequence>
+    <xs:element name="recurrencePeriod" shortName="recper" type="xs:positiveInteger">
+      <xs:annotation>
+        <documentation>Meter read sampling time in seconds</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="scheduleInterval" shortName="sched" type="scheduleInterval"/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="meterReadSchedule">
+  <sequence>
+    <xs:element name="readingType" shortName="rtype" type="readingType"/>
+    <xs:element name="timeSchedule" shortName="tsched" type="timeSchedule"/>
+    <xs:element name="destContainer" shortName="dcnt" type="xs:string" minOccurs="0"/>
+  </sequence>
+</xs:complexType>
+
+</xs:schema>

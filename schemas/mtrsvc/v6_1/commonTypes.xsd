@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AOS v.6.0 Metering Services schema -->
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:mtrsvc="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<!--Format is YYYYMMDDThhmmss -->
+<xs:simpleType name="timestamp">
+	<xs:restriction base="xs:string">
+		<xs:pattern value="\d{4}(0[1-9]|1[0-2])(0[1-9]|[1-2]\d|30|31)T([01]\d|2[0-3])[0-5]\d[0-5]\d"></xs:pattern>
+	</xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

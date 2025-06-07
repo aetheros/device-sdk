@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AOS v.6.1 Metering Services schema -->
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:mtrsvc="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="6.1.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:include schemaLocation="meterReadSchedule.xsd" />
+<xs:include schemaLocation="meterControlSchedule.xsd" />
+
+<xs:complexType name="meterServicePolicy">
+  <xs:choice>
+    <xs:element name="meterReadSchedule" shortName="read" type="meterReadSchedule"/>
+    <xs:element name="meterControlSchedule" shortName="ctl" type="meterControlSchedule"/>
+    <xs:element name="meterEvControlSchedule" shortName="evctl" type="evseControlSchedule"/>
+  </xs:choice>
+</xs:complexType>
+
+</xs:schema>

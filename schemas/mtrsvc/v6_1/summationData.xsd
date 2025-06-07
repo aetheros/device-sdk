@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AOS v.6.0 Metering Services schema -->
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:mtrsvc="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:complexType name="summationData">
+  <sequence>
+    <xs:element name="activeEnergyImportedA" shortName="iWhA" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Imported Phase A</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activeEnergyImportedB" shortName="iWhB" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Imported Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activeEnergyImportedC" shortName="iWhC" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Imported Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activeEnergyImportedTotal" shortName="iWhT" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Imported Total</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activeEnergyExportedA" shortName="eWhA" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Exported Phase A</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activeEnergyExportedB" shortName="eWhB" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Exported Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activeEnergyExportedC" shortName="eWhC" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Exported Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activeEnergyExportedTotal" shortName="eWhT" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated Wh Exported Total</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyImportedA" shortName="iVARhA" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Imported Phase A</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyImportedB" shortName="iVARhB" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Imported Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyImportedC" shortName="iVARhC" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Imported Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyImportedTotal" shortName="iVARhT" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Imported Total</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyExportedA" shortName="eVARhA" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Exported Phase A</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyExportedB" shortName="eVARhB" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Exported Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyExportedC" shortName="eVARhC" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Exported Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactiveEnergyExportedTotal" shortName="eVARhT" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VARh Exported Total</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyImportedA" shortName="iVAhA" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Imported Phase A</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyImportedB" shortName="iVAhB" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Imported Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyImportedC" shortName="iVAhC" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Imported Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyImportedTotal" shortName="iVAhT" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Imported Total</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyExportedA" shortName="eVAhA" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Exported Phase A</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyExportedB" shortName="eVAhB" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Exported Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyExportedC" shortName="eVAhC" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Exported Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentEnergyExportedTotal" shortName="eVAhT" type="xs:positiveInteger" minOccurs="0">
+      <xs:annotation>
+        <documentation>Accumulated VAh Exported Total</documentation>
+      </xs:annotation>
+    </xs:element>
+  </sequence>
+</xs:complexType>
+
+</xs:schema>

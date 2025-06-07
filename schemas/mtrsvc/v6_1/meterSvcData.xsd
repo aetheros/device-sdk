@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AOS v.6.0 Metering Services schema -->
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:mtrsvc="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:include schemaLocation="commonTypes.xsd" />
+<xs:include schemaLocation="powerQualityData.xsd" />
+<xs:include schemaLocation="summationData.xsd" />
+
+<xs:complexType name="meterSvcData">
+  <xs:sequence>
+      <xs:element name="meterId" shortName="mtrid" type="xs:string"/>
+      <xs:element name="readTimeLocal" shortName="rtl" type="timestamp"/>
+      <xs:element name="powerQuality" shortName="pq" type="powerQualityData" minOccurs="0" />
+      <xs:element name="summations" shortName="summ" type="summationData" minOccurs="0" />
+  </xs:sequence>
+</xs:complexType>
+
+</xs:schema>

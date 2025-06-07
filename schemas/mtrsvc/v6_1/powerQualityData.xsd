@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- AOS v.6.0 Metering Services schema -->
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:mtrsvc="http://www.aetheros.com/xml/protocols/meteringService"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="6.0.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:complexType name="powerQualityData">
+  <sequence>
+    <xs:element name="voltageA" shortName="VA" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Voltage Phase A. Single phase Voltage reported as Phase A.</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="voltageB" shortName="VB" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Voltage Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="voltageC" shortName="VC" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Voltage Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="currentA" shortName="AA" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Current Phase A. Single phase Current reported as Phase A.</documentation>
+      </xs:annotation>
+	</xs:element>
+    <xs:element name="currentB" shortName="AB" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Current Phase B</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="currentC" shortName="AC" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Current Phase C</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="currentNeutral" shortName="CN" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Neutral Current</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="frequency" shortName="frq" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Frequency</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="voltageAngleA" shortName="VaA" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Angle of Phase A Voltage</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="voltageAngleB" shortName="VaB" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Angle of Phase B Voltage</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="voltageAngleC" shortName="VaC" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Angle of Phase C Voltage</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="powerFactorA" shortName="pfA" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Power Factor of Phase A</documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:float">
+        <xs:minInclusive value="0.00"/>
+        <xs:maxInclusive value="1.00"/>
+      </xs:restriction>
+    </xs:element>
+    <xs:element name="powerFactorB" shortName="pfB" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Power Factor of Phase B</documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:float">
+        <xs:minInclusive value="0.00"/>
+        <xs:maxInclusive value="1.00"/>
+      </xs:restriction>
+    </xs:element>
+    <xs:element name="powerFactorC" shortName="pfC" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Power Factor of Phase C</documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:float">
+        <xs:minInclusive value="0.00"/>
+        <xs:maxInclusive value="1.00"/>
+      </xs:restriction>
+    </xs:element>
+    <xs:element name="powerFactorTotal" shortName="pfT" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Total Power Factor.  Single phase Power Factor reported as Total Power Factor.</documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:float">
+        <xs:minInclusive value="0.00"/>
+        <xs:maxInclusive value="1.00"/>
+      </xs:restriction>
+    </xs:element>
+    <xs:element name="activePowerA" shortName="WA" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Active Power Phase A. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activePowerB" shortName="WB" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Active Power Phase B. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activePowerC" shortName="WC" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Active Power Phase C. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="activePowerTotal" shortName="WT" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Total Active Power. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3). Single phase Active Power reported as Total Active Power.</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentPowerA" shortName="VAA" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Apparent Power Phase A. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentPowerB" shortName="VAB" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Apparent Power Phase B. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentPowerC" shortName="VAC" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Apparent Power Phase C. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="apparentPowerTotal" shortName="VAT" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Total Apparent Power. Import = Positive (Q1 or Q4). Export = Negative (Q2 or Q3). Single phase Apparent Power reported as Total Apparent Power.</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactivePowerA" shortName="VARA" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Reactive Power Phase A. Import = Positive (Q1 or Q2). Export = Negative (Q3 or Q4).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactivePowerB" shortName="VARB" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Reactive Power Phase B. Import = Positive (Q1 or Q2). Export = Negative (Q3 or Q4).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactivePowerC" shortName="VARC" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Reactive Power Phase C. Import = Positive (Q1 or Q2). Export = Negative (Q3 or Q4).</documentation>
+      </xs:annotation>
+    </xs:element>
+    <xs:element name="reactivePowerTotal" shortName="VART" type="xs:float" minOccurs="0">
+      <xs:annotation>
+        <documentation>Instantaneous Total Reactive Power. Import = Positive (Q1 or Q2). Export = Negative (Q3 or Q4). Single phase Reactive Power reported as Total Reactive Power.</documentation>
+      </xs:annotation>
+    </xs:element>
+  </sequence>
+</xs:complexType>
+
+</xs:schema>
