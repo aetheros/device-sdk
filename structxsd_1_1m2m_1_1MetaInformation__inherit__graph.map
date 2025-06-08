@@ -1,5 +1,7 @@
 <map id="xsd::m2m::MetaInformation" name="xsd::m2m::MetaInformation">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:metaInformation." alt="" coords="5,155,209,181"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="25,80,189,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="54,5,161,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:metaInformation." alt="" coords="5,152,209,177"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="25,79,189,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,118,110,152,105,152,105,118"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="54,5,161,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,44,110,79,105,79,105,44"/>
 </map>

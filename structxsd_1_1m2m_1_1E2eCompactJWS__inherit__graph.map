@@ -1,5 +1,7 @@
 <map id="xsd::m2m::E2eCompactJWS" name="xsd::m2m::E2eCompactJWS">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:e2eCompactJWS." alt="" coords="5,169,208,196"/>
-<area shape="rect" id="node2" href="$classxsd_1_1XsdFundamentalType.html" title="XSD Fundamental type wrapper class." alt="" coords="65,95,148,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="15,5,198,47"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:e2eCompactJWS." alt="" coords="5,167,208,192"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1XsdFundamentalType.html" title="XSD Fundamental type wrapper class." alt="" coords="65,93,148,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,132,109,167,104,167,104,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="15,5,198,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,59,109,93,104,93,104,59"/>
 </map>

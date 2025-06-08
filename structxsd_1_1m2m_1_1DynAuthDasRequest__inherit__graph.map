@@ -1,5 +1,7 @@
 <map id="xsd::m2m::DynAuthDasRequest" name="xsd::m2m::DynAuthDasRequest">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:dynAuthDasRequest." alt="" coords="5,155,235,181"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="38,80,202,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="67,5,173,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:dynAuthDasRequest." alt="" coords="5,152,235,177"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="38,79,202,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,118,123,152,117,152,117,118"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="67,5,173,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,44,123,79,117,79,117,44"/>
 </map>

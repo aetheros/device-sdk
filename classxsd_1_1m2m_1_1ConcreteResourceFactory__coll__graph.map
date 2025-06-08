@@ -1,4 +1,5 @@
 <map id="xsd::m2m::ConcreteResourceFactory&lt; DerivedType &gt;" name="xsd::m2m::ConcreteResourceFactory&lt; DerivedType &gt;">
-<area shape="rect" id="node1" title="A factory class for Resource&#45;derived types." alt="" coords="5,80,219,121"/>
-<area shape="rect" id="node2" href="$classxsd_1_1m2m_1_1ResourceFactory.html" title="Resource factory base class." alt="" coords="11,5,213,32"/>
+<area shape="rect" id="Node000001" title="A factory class for Resource&#45;derived types." alt="" coords="5,79,219,119"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1m2m_1_1ResourceFactory.html" title="Resource factory base class." alt="" coords="11,5,213,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,44,115,79,109,79,109,44"/>
 </map>

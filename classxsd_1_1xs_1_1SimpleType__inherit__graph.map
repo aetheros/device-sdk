@@ -1,15 +1,27 @@
 <map id="xsd::xs::SimpleType&lt; T, Restrictions &gt;" name="xsd::xs::SimpleType&lt; T, Restrictions &gt;">
-<area shape="rect" id="node1" title="class template for xs:simpleType classes" alt="" coords="92,263,243,305"/>
-<area shape="rect" id="node3" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="291,23,521,65"/>
-<area shape="rect" id="node6" href="$structxsd_1_1m2m_1_1DeviceID.html" title="Class representation of xsd type m2m:deviceID." alt="" coords="329,89,483,130"/>
-<area shape="rect" id="node7" href="$structxsd_1_1m2m_1_1ExternalID.html" title="Class representation of xsd type m2m:externalID." alt="" coords="325,154,487,195"/>
-<area shape="rect" id="node8" href="$structxsd_1_1m2m_1_1ID.html" title="Class representation of xsd type m2m:ID." alt="" coords="317,220,495,247"/>
-<area shape="rect" id="node9" href="$structxsd_1_1m2m_1_1Ipv4.html" title="Class representation of xsd type m2m:ipv4." alt="" coords="311,271,501,297"/>
-<area shape="rect" id="node10" href="$structxsd_1_1m2m_1_1Ipv6.html" title="Class representation of xsd type m2m:ipv6." alt="" coords="311,321,501,348"/>
-<area shape="rect" id="node11" href="$structxsd_1_1m2m_1_1NhURI.html" title="Class representation of xsd type m2m:nhURI." alt="" coords="304,372,508,399"/>
-<area shape="rect" id="node12" href="$structxsd_1_1m2m_1_1NodeID.html" title="Class representation of xsd type m2m:nodeID." alt="" coords="301,423,511,449"/>
-<area shape="rect" id="node13" href="$structxsd_1_1m2m_1_1RequestID.html" title="Class representation of xsd type m2m:requestID." alt="" coords="325,474,487,515"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,271,44,297"/>
-<area shape="rect" id="node4" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="569,5,780,32"/>
-<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="583,56,766,83"/>
+<area shape="rect" id="Node000001" title="class template for xs:simpleType classes" alt="" coords="92,257,243,297"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="291,22,521,62"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,243,193,203,217,157,249,111,289,72,309,60,312,64,292,76,253,115,222,160,198,206,182,245"/>
+<area shape="rect" id="Node000006" href="$structxsd_1_1m2m_1_1DeviceID.html" title="Class representation of xsd type m2m:deviceID." alt="" coords="329,86,483,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="186,243,229,188,257,160,289,136,327,118,330,123,292,140,261,164,233,192,191,247"/>
+<area shape="rect" id="Node000007" href="$structxsd_1_1m2m_1_1ExternalID.html" title="Class representation of xsd type m2m:externalID." alt="" coords="325,150,487,190"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="208,247,247,223,290,201,325,188,327,193,292,206,249,227,210,251"/>
+<area shape="rect" id="Node000008" href="$structxsd_1_1m2m_1_1ID.html" title="Class representation of xsd type m2m:ID." alt="" coords="317,215,495,240"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="255,256,343,237,344,243,256,261"/>
+<area shape="rect" id="Node000009" href="$structxsd_1_1m2m_1_1Ipv4.html" title="Class representation of xsd type m2m:ipv4." alt="" coords="311,264,501,289"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="256,274,311,274,311,279,256,279"/>
+<area shape="rect" id="Node000010" href="$structxsd_1_1m2m_1_1Ipv6.html" title="Class representation of xsd type m2m:ipv6." alt="" coords="311,313,501,339"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="256,292,344,311,343,316,255,298"/>
+<area shape="rect" id="Node000011" href="$structxsd_1_1m2m_1_1NhURI.html" title="Class representation of xsd type m2m:nhURI." alt="" coords="304,363,508,388"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="208,302,248,327,292,349,327,360,326,365,290,354,245,332,205,307"/>
+<area shape="rect" id="Node000012" href="$structxsd_1_1m2m_1_1NodeID.html" title="Class representation of xsd type m2m:nodeID." alt="" coords="301,412,511,437"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="193,306,235,355,262,379,292,398,318,409,316,414,289,403,259,383,232,358,189,310"/>
+<area shape="rect" id="Node000013" href="$structxsd_1_1m2m_1_1RequestID.html" title="Class representation of xsd type m2m:requestID." alt="" coords="325,462,487,502"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="186,308,203,342,227,379,257,416,292,448,325,465,323,469,289,452,253,420,223,382,199,344,181,311"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,264,44,289"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,274,92,274,92,279,58,279"/>
+<area shape="rect" id="Node000004" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="569,5,780,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="535,28,569,25,569,30,535,33"/>
+<area shape="rect" id="Node000005" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="583,55,766,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="535,52,583,56,583,61,535,57"/>
 </map>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['example_20onem2m_2fcoap_20ae_20transactions_3213',['Example oneM2M/coap AE transactions',['../md_ae_packet_samples.html',1,'']]],
-  ['example_20onem2m_2fcoap_20topology_2drelated_20transactions_3214',['Example oneM2M/coap topology-related transactions',['../md_topology_packet_samples.html',1,'']]]
+  ['coap_20ae_20transactions_0',['Example oneM2M/coap AE transactions',['../md_ae__packet__samples.html',1,'']]],
+  ['coap_20topology_20related_20transactions_1',['Example oneM2M/coap topology-related transactions',['../md_topology__packet__samples.html',1,'']]]
 ];

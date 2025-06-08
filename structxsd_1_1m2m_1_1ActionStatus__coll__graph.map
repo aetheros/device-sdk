@@ -1,8 +1,14 @@
 <map id="xsd::m2m::ActionStatus" name="xsd::m2m::ActionStatus">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:actionStatus." alt="" coords="532,64,709,91"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="257,5,421,32"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="255,57,423,98"/>
-<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,100,189,127"/>
-<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,122,439,163"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:actionStatus." alt="" coords="532,63,709,88"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="257,5,421,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="416,31,558,60,557,65,415,36"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,15,256,15,256,21,165,21"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="255,55,423,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="436,73,532,73,532,78,436,78"/>
+<area shape="rect" id="Node000005" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,97,189,123"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="199,93,254,85,255,90,200,98"/>
+<area shape="rect" id="Node000006" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,119,439,159"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="203,120,239,125,238,130,203,125"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="440,114,563,85,564,91,441,119"/>
 </map>

@@ -1,9 +1,15 @@
 <map id="xsd::xs::SimpleContentType" name="xsd::xs::SimpleContentType">
-<area shape="rect" id="node1" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="372,64,575,91"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="623,23,853,65"/>
-<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title="The concrete class that binds SimpleContentType to the type it represents." alt="" coords="623,89,853,130"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="160,64,324,91"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,64,112,91"/>
-<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="901,5,1112,32"/>
-<area shape="rect" id="node6" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="915,56,1098,83"/>
+<area shape="rect" id="Node000001" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="372,61,575,87"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="623,22,853,62"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="588,57,622,53,623,59,588,63"/>
+<area shape="rect" id="Node000007" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title="The concrete class that binds SimpleContentType to the type it represents." alt="" coords="623,86,853,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="588,85,623,89,622,95,588,91"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="160,61,324,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="338,71,372,71,372,77,338,77"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,61,112,87"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,71,160,71,160,77,126,77"/>
+<area shape="rect" id="Node000005" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="901,5,1112,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="867,28,901,25,901,30,867,33"/>
+<area shape="rect" id="Node000006" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="915,55,1098,80"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="867,52,915,56,915,61,867,57"/>
 </map>

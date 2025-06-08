@@ -1,5 +1,7 @@
 <map id="xsd::mtrsvc::ReadingType" name="xsd::mtrsvc::ReadingType">
-<area shape="rect" id="node1" title="Class representation of xsd type mtrsvc:readingType." alt="" coords="5,169,195,196"/>
-<area shape="rect" id="node2" href="$classxsd_1_1XsdFundamentalType.html" title="XSD Fundamental type wrapper class." alt="" coords="59,95,141,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="9,5,191,47"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type mtrsvc:readingType." alt="" coords="5,167,195,192"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1XsdFundamentalType.html" title="XSD Fundamental type wrapper class." alt="" coords="59,93,141,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,132,103,167,97,167,97,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="9,5,191,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,59,103,93,97,93,97,59"/>
 </map>

@@ -1,12 +1,26 @@
 <map id="xsd::m2m::AggregatedRequest::Request" name="xsd::m2m::AggregatedRequest::Request">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:aggregatedRequest.request." alt="" coords="615,187,837,229"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="263,5,427,32"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,57,451,98"/>
-<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,243,189,269"/>
-<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="261,122,429,163"/>
-<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,187,452,229"/>
-<area shape="rect" id="node8" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="261,253,429,294"/>
-<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="261,318,429,359"/>
-<area shape="rect" id="node10" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="253,383,437,425"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:aggregatedRequest.request." alt="" coords="615,183,837,223"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="263,5,427,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="439,31,516,52,555,67,592,85,627,108,659,134,708,181,705,185,655,138,624,112,589,90,553,72,514,57,438,36"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="164,15,263,15,263,21,164,21"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="253,55,437,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="447,96,519,116,592,140,686,181,684,186,590,144,517,121,446,101"/>
+<area shape="rect" id="Node000005" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,237,189,263"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="114,225,165,165,199,133,237,105,262,93,264,98,240,110,202,137,168,169,118,228"/>
+<area shape="rect" id="Node000006" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="261,119,429,159"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="128,228,179,198,238,169,270,157,272,162,240,174,181,203,131,232"/>
+<area shape="rect" id="Node000007" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="261,183,429,223"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="178,232,261,216,262,222,179,237"/>
+<area shape="rect" id="Node000008" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="261,247,429,287"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="203,255,261,259,261,264,203,260"/>
+<area shape="rect" id="Node000009" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,311,452,351"/>
+<area shape="poly" id="edge12_Node000009_Node000005" title=" " alt="" coords="147,265,240,297,277,309,276,314,238,302,145,270"/>
+<area shape="rect" id="Node000010" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,375,451,415"/>
+<area shape="poly" id="edge14_Node000010_Node000005" title=" " alt="" coords="122,270,174,316,206,340,240,361,267,373,264,378,237,366,203,345,170,320,119,274"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="443,153,615,182,614,187,443,158"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="443,201,615,201,615,206,443,206"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="443,248,614,219,615,225,443,254"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="449,305,519,286,590,264,685,221,687,226,592,268,520,292,451,311"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="458,369,525,348,589,318,624,296,656,270,705,222,709,226,659,274,627,300,592,323,526,353,459,374"/>
 </map>

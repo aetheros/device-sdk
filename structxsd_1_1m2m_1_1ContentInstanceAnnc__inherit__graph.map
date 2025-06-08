@@ -1,7 +1,11 @@
 <map id="xsd::m2m::ContentInstanceAnnc" name="xsd::m2m::ContentInstanceAnnc">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:contentInstanceAnnc." alt="" coords="11,319,245,345"/>
-<area shape="rect" id="node2" href="$structxsd_1_1m2m_1_1AnnouncedSubordinateResource.html" title="Class representation of xsd type m2m:announcedSubordinateResource." alt="" coords="5,229,251,271"/>
-<area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource." alt="" coords="51,155,205,181"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="46,80,210,107"/>
-<area shape="rect" id="node5" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="75,5,181,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:contentInstanceAnnc." alt="" coords="11,313,245,339"/>
+<area shape="rect" id="Node000002" href="$structxsd_1_1m2m_1_1AnnouncedSubordinateResource.html" title="Class representation of xsd type m2m:announcedSubordinateResource." alt="" coords="5,225,251,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,279,131,313,125,313,125,279"/>
+<area shape="rect" id="Node000003" href="$structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource." alt="" coords="51,152,205,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="131,191,131,225,125,225,125,191"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="46,79,210,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="131,118,131,152,125,152,125,118"/>
+<area shape="rect" id="Node000005" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="75,5,181,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="131,44,131,79,125,79,125,44"/>
 </map>

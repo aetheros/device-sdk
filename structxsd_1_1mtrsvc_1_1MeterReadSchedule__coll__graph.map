@@ -1,9 +1,17 @@
 <map id="xsd::mtrsvc::MeterReadSchedule" name="xsd::mtrsvc::MeterReadSchedule">
-<area shape="rect" id="node1" title="Class representation of xsd type mtrsvc:meterReadSchedule." alt="" coords="583,97,819,124"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="257,5,421,32"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,57,439,98"/>
-<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,129,189,156"/>
-<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="243,122,434,163"/>
-<area shape="rect" id="node7" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="248,187,429,229"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type mtrsvc:meterReadSchedule." alt="" coords="583,96,819,121"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="257,5,421,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="415,31,559,65,659,93,658,98,558,70,414,36"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,15,256,15,256,21,165,21"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="248,55,429,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="444,82,583,95,582,100,443,88"/>
+<area shape="rect" id="Node000005" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,127,189,152"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="159,120,262,93,263,98,160,126"/>
+<area shape="rect" id="Node000006" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="243,119,434,159"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="203,137,243,137,243,142,203,142"/>
+<area shape="rect" id="Node000007" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,183,439,223"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="160,153,263,181,262,186,159,158"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="447,130,558,122,592,119,593,124,559,127,448,136"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="446,178,558,150,661,119,662,124,559,155,448,183"/>
 </map>

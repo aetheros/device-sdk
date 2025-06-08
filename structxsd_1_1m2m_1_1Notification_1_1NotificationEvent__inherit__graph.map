@@ -1,5 +1,7 @@
 <map id="xsd::m2m::Notification::NotificationEvent" name="xsd::m2m::Notification::NotificationEvent">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:notification.notificationEvent." alt="" coords="5,155,176,196"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="9,80,173,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="37,5,144,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:notification.notificationEvent." alt="" coords="5,152,176,192"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="9,79,173,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,118,93,152,88,152,88,118"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="37,5,144,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,44,93,79,88,79,88,44"/>
 </map>

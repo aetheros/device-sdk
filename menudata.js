@@ -94,7 +94,8 @@ var menudata={children:[
 {text:"p",url:"namespacemembers_enum.html#index_p"},
 {text:"r",url:"namespacemembers_enum.html#index_r"},
 {text:"s",url:"namespacemembers_enum.html#index_s"},
-{text:"t",url:"namespacemembers_enum.html#index_t"}]}]}]},
+{text:"t",url:"namespacemembers_enum.html#index_t"}]},
+{text:"Enumerator",url:"namespacemembers_eval.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
@@ -172,6 +173,7 @@ var menudata={children:[
 {text:"c",url:"functions_type_c.html#index_c"},
 {text:"d",url:"functions_type_d.html#index_d"},
 {text:"i",url:"functions_type_i.html#index_i"},
+{text:"m",url:"functions_type_m.html#index_m"},
 {text:"n",url:"functions_type_n.html#index_n"},
 {text:"r",url:"functions_type_r.html#index_r"},
 {text:"s",url:"functions_type_s.html#index_s"},
@@ -181,6 +183,10 @@ var menudata={children:[
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
-{text:"All",url:"globals.html"},
-{text:"Macros",url:"globals_defs.html"}]}]},
+{text:"All",url:"globals.html",children:[
+{text:"l",url:"globals.html#index_l"},
+{text:"s",url:"globals_s.html#index_s"}]},
+{text:"Macros",url:"globals_defs.html",children:[
+{text:"l",url:"globals_defs.html#index_l"},
+{text:"s",url:"globals_defs_s.html#index_s"}]}]}]},
 {text:"Examples",url:"examples.html"}]}

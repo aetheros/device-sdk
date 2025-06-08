@@ -1,5 +1,7 @@
 <map id="xsd::mtrsvc::PowerQualityData" name="xsd::mtrsvc::PowerQualityData">
-<area shape="rect" id="node1" title="Class representation of xsd type mtrsvc:powerQualityData." alt="" coords="5,155,229,181"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="35,80,199,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="64,5,171,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type mtrsvc:powerQualityData." alt="" coords="5,152,229,177"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="35,79,199,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,118,120,152,115,152,115,118"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="64,5,171,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,44,120,79,115,79,115,44"/>
 </map>

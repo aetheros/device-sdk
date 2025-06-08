@@ -1,0 +1,7 @@
+<map id="xsd::mtrsvc::EvseChargeLevel" name="xsd::mtrsvc::EvseChargeLevel">
+<area shape="rect" id="Node000001" title="Class representation of xsd type mtrsvc:evseChargeLevel." alt="" coords="5,167,224,192"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1XsdFundamentalType.html" title="XSD Fundamental type wrapper class." alt="" coords="69,93,160,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,132,117,167,112,167,112,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="23,5,206,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,59,117,93,112,93,112,59"/>
+</map>

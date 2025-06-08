@@ -1,5 +1,7 @@
 <map id="xsd::m2m::DescriptorRepresentation" name="xsd::m2m::DescriptorRepresentation">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:descriptorRepresentation." alt="" coords="5,169,267,196"/>
-<area shape="rect" id="node2" href="$classxsd_1_1XsdFundamentalType.html" title="XSD Fundamental type wrapper class." alt="" coords="95,95,177,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="45,5,227,47"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:descriptorRepresentation." alt="" coords="5,167,267,192"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1XsdFundamentalType.html" title="XSD Fundamental type wrapper class." alt="" coords="95,93,177,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,132,139,167,133,167,133,132"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="45,5,227,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,59,139,93,133,93,133,59"/>
 </map>

@@ -1,7 +1,11 @@
 <map id="xsd::m2m::DynAuthLocalTokenIdAssignments" name="xsd::m2m::DynAuthLocalTokenIdAssignments">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:dynAuthLocalTokenIdAssignments." alt="" coords="743,31,965,73"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="304,5,468,32"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,32"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,56,533,112"/>
-<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,71,189,97"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:dynAuthLocalTokenIdAssignments." alt="" coords="743,30,965,70"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="304,5,468,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="482,22,743,40,742,45,482,27"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="44,5,151,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,15,304,15,304,21,165,21"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="239,55,533,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="547,70,718,58,742,56,743,62,719,63,547,75"/>
+<area shape="rect" id="Node000005" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="5,69,189,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="203,79,239,79,239,85,203,85"/>
 </map>

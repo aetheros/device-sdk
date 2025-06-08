@@ -1,5 +1,7 @@
 <map id="xsd::xs::Union&lt; Types &gt;" name="xsd::xs::Union&lt; Types &gt;">
-<area shape="rect" id="node1" title="The type used for XS unions." alt="" coords="51,109,232,136"/>
-<area shape="rect" id="node2" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,20,112,47"/>
-<area shape="rect" id="node3" title=" " alt="" coords="136,5,315,61"/>
+<area shape="rect" id="Node000001" title="The type used for XS unions." alt="" coords="51,108,232,133"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="5,20,112,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,54,132,106,128,109,77,57"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="136,5,315,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,72,155,110,151,106,188,68"/>
 </map>

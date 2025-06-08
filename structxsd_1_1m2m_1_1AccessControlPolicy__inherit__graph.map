@@ -1,7 +1,11 @@
 <map id="xsd::m2m::AccessControlPolicy" name="xsd::m2m::AccessControlPolicy">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:accessControlPolicy." alt="" coords="25,319,251,345"/>
-<area shape="rect" id="node2" href="$structxsd_1_1m2m_1_1AnnounceableSubordinateResource.html" title="Class representation of xsd type m2m:announceableSubordinateResource." alt="" coords="5,229,271,271"/>
-<area shape="rect" id="node3" href="$structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource." alt="" coords="61,155,215,181"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="56,80,220,107"/>
-<area shape="rect" id="node5" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="85,5,191,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:accessControlPolicy." alt="" coords="25,313,251,339"/>
+<area shape="rect" id="Node000002" href="$structxsd_1_1m2m_1_1AnnounceableSubordinateResource.html" title="Class representation of xsd type m2m:announceableSubordinateResource." alt="" coords="5,225,271,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,279,141,313,135,313,135,279"/>
+<area shape="rect" id="Node000003" href="$structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource." alt="" coords="61,152,215,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,191,141,225,135,225,135,191"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="56,79,220,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,118,141,152,135,152,135,118"/>
+<area shape="rect" id="Node000005" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="85,5,191,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,44,141,79,135,79,135,44"/>
 </map>

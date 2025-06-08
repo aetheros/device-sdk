@@ -1,5 +1,7 @@
 <map id="xsd::m2m::TokenClaimSet" name="xsd::m2m::TokenClaimSet">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:tokenClaimSet." alt="" coords="5,155,196,181"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="19,80,183,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="47,5,154,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:tokenClaimSet." alt="" coords="5,152,196,177"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="19,79,183,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,118,103,152,98,152,98,118"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="47,5,154,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,44,103,79,98,79,98,44"/>
 </map>

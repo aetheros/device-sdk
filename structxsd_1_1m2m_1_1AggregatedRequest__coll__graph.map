@@ -1,7 +1,11 @@
 <map id="xsd::m2m::AggregatedRequest" name="xsd::m2m::AggregatedRequest">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:aggregatedRequest." alt="" coords="79,200,301,227"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="5,96,169,123"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="34,5,141,32"/>
-<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="194,81,394,137"/>
-<area shape="rect" id="node5" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="202,5,386,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:aggregatedRequest." alt="" coords="79,197,301,223"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="5,95,169,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,128,180,195,176,199,107,132"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="34,5,141,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,45,90,94,85,94,85,45"/>
+<area shape="rect" id="Node000004" href="$classxsd_1_1xs_1_1Element.html" title=" " alt="" coords="194,80,394,135"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="259,146,204,199,200,195,255,142"/>
+<area shape="rect" id="Node000005" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="202,5,386,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="297,45,297,80,291,80,291,45"/>
 </map>

@@ -1,5 +1,7 @@
 <map id="xsd::m2m::Notification::IPEDiscoveryRequest_" name="xsd::m2m::Notification::IPEDiscoveryRequest_">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:notification.IPEDiscoveryRequest." alt="" coords="5,155,180,196"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="11,80,175,107"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="39,5,146,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:notification.IPEDiscoveryRequest." alt="" coords="5,152,180,192"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="11,79,175,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,118,95,152,90,152,90,118"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="39,5,146,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
 </map>

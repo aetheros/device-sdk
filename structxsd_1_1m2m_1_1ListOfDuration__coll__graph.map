@@ -1,7 +1,11 @@
 <map id="xsd::m2m::ListOfDuration" name="xsd::m2m::ListOfDuration">
-<area shape="rect" id="node1" title="Class representation of xsd type m2m:listOfDuration." alt="" coords="5,261,195,288"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="31,171,169,212"/>
-<area shape="rect" id="node3" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="31,95,137,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="162,95,291,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="207,5,246,32"/>
+<area shape="rect" id="Node000001" title="Class representation of xsd type m2m:listOfDuration." alt="" coords="5,257,195,283"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="31,168,169,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,222,103,257,97,257,97,222"/>
+<area shape="rect" id="Node000003" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="31,93,137,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,131,99,167,94,168,86,132"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="162,93,291,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="198,128,131,170,128,166,195,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="207,5,246,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="229,45,229,93,224,93,224,45"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="xsd::xs::Element&lt; T, MinOccurs, MaxOccurs &gt;" name="xsd::xs::Element&lt; T, MinOccurs, MaxOccurs &gt;">
-<area shape="rect" id="node1" title="The base class of elements (members) of XSD types where minOccurs and maxOccurs are not greater than ..." alt="" coords="5,80,195,121"/>
-<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="8,5,192,32"/>
+<area shape="rect" id="Node000001" title="The base class of elements (members) of XSD types where minOccurs and maxOccurs are not greater than ..." alt="" coords="5,79,195,119"/>
+<area shape="rect" id="Node000002" href="$classxsd_1_1xs_1_1AbstractElement.html" title="The base class of all elements (members) of a type generated from an XSD." alt="" coords="8,5,192,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,44,103,79,97,79,97,44"/>
 </map>
