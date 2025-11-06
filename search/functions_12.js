@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['voltage_5fscale_0',['voltage_scale',['../namespaceaos_1_1waveform__provider.html#ab3abf95c9ea3660e391a29dacf18f036',1,'aos::waveform_provider']]]
+  ['waitforever_3220',['waitForever',['../classm2m_1_1AppEntity.html#a3d3655547800123b1af91bd0bf8c65a0',1,'m2m::AppEntity']]],
+  ['waituntiltermination_3221',['waitUntilTermination',['../classm2m_1_1AppEntity.html#a44c3367b032519d4ff611380eb93edb1',1,'m2m::AppEntity']]]
 ];

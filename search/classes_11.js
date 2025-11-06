@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['xsdexception_0',['XsdException',['../classxsd_1_1XsdException.html',1,'xsd']]],
-  ['xsdfundamentaltype_1',['XsdFundamentalType',['../classxsd_1_1XsdFundamentalType.html',1,'xsd']]],
-  ['xsdtype_2',['XsdType',['../classxsd_1_1XsdType.html',1,'xsd']]]
+  ['waveformmetadata_2518',['WaveformMetadata',['../structaos_1_1waveform_1_1WaveformMetadata.html',1,'aos::waveform']]]
 ];

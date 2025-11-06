@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['waveformprovider_2ehpp_0',['WaveformProvider.hpp',['../WaveformProvider_8hpp.html',1,'']]],
-  ['waveformprovidercommon_2ehpp_1',['WaveformProviderCommon.hpp',['../WaveformProviderCommon_8hpp.html',1,'']]]
+  ['waveformdata_2ehpp_2608',['WaveformData.hpp',['../WaveformData_8hpp.html',1,'']]],
+  ['waveformmetadata_2ehpp_2609',['WaveformMetadata.hpp',['../WaveformMetadata_8hpp.html',1,'']]],
+  ['waveformprovider_2ehpp_2610',['WaveformProvider.hpp',['../WaveformProvider_8hpp.html',1,'']]]
 ];

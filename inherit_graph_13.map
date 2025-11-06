@@ -1,3 +1,176 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structxsd_1_1m2m_1_1ResourceClass.html" title="Class information about a OneM2M Resource." alt="" coords="5,5,196,31"/>
+<area shape="rect" id="node1" title=" " alt="" coords="37,5,149,32"/>
+<area shape="rect" id="node2" href="$classxsd_1_1xs_1_1Union.html" title="The type used for XS unions." alt="" coords="239,5,421,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="28,413,157,440"/>
+<area shape="rect" id="node4" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="261,107,399,149"/>
+<area shape="rect" id="node6" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="229,173,431,200"/>
+<area shape="rect" id="node9" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="236,224,424,251"/>
+<area shape="rect" id="node11" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="261,275,399,317"/>
+<area shape="rect" id="node14" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="241,341,419,382"/>
+<area shape="rect" id="node16" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="228,406,432,447"/>
+<area shape="rect" id="node18" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="261,471,399,513"/>
+<area shape="rect" id="node20" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="231,537,429,564"/>
+<area shape="rect" id="node22" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="261,589,399,630"/>
+<area shape="rect" id="node24" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="229,654,431,695"/>
+<area shape="rect" id="node26" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="261,719,399,761"/>
+<area shape="rect" id="node28" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="261,785,399,826"/>
+<area shape="rect" id="node30" href="$classxsd_1_1xs_1_1List.html" title=" " alt="" coords="259,56,401,83"/>
+<area shape="rect" id="node5" href="$structxsd_1_1m2m_1_1PoaList.html" title="Class representation of xsd type m2m:poaList." alt="" coords="552,115,695,141"/>
+<area shape="rect" id="node7" href="$structxsd_1_1m2m_1_1ListOfTimeStamp.html" title="Class representation of xsd type m2m:listOfTimeStamp." alt="" coords="520,169,727,196"/>
+<area shape="rect" id="node8" href="$structxsd_1_1m2m_1_1MissingDataList.html" title="Class representation of xsd type m2m:missingDataList." alt="" coords="848,169,1047,196"/>
+<area shape="rect" id="node10" href="$structxsd_1_1m2m_1_1ListOfEventCat.html" title="Class representation of xsd type m2m:listOfEventCat." alt="" coords="527,220,719,247"/>
+<area shape="rect" id="node12" href="$structxsd_1_1m2m_1_1AttributeList.html" title="Class representation of xsd type m2m:attributeList." alt="" coords="536,271,711,297"/>
+<area shape="rect" id="node13" href="$structxsd_1_1m2m_1_1ListOfNCNames.html" title="Class representation of xsd type m2m:listOfNCNames." alt="" coords="524,321,723,348"/>
+<area shape="rect" id="node15" href="$structxsd_1_1m2m_1_1Serializations.html" title="Class representation of xsd type m2m:serializations." alt="" coords="532,372,715,399"/>
+<area shape="rect" id="node17" href="$structxsd_1_1m2m_1_1ResourceTypeList.html" title="Class representation of xsd type m2m:resourceTypeList." alt="" coords="519,423,727,449"/>
+<area shape="rect" id="node19" href="$structxsd_1_1m2m_1_1ListOfRelTimeStamp.html" title="Class representation of xsd type m2m:listOfRelTimeStamp." alt="" coords="509,479,737,505"/>
+<area shape="rect" id="node21" href="$structxsd_1_1m2m_1_1ListOfMinMax.html" title="Class representation of xsd type m2m:listOfMinMax." alt="" coords="531,537,716,564"/>
+<area shape="rect" id="node23" href="$structxsd_1_1m2m_1_1ListOfURIs.html" title="Class representation of xsd type m2m:listOfURIs." alt="" coords="542,596,705,623"/>
+<area shape="rect" id="node25" href="$structxsd_1_1m2m_1_1ListOfEventCatWithDef.html" title="Class representation of xsd type m2m:listOfEventCatWithDef." alt="" coords="527,654,719,695"/>
+<area shape="rect" id="node27" href="$structxsd_1_1m2m_1_1ListOfDuration.html" title="Class representation of xsd type m2m:listOfDuration." alt="" coords="529,723,718,749"/>
+<area shape="rect" id="node29" href="$structxsd_1_1m2m_1_1Labels.html" title="Class representation of xsd type m2m:labels." alt="" coords="555,773,692,800"/>
+<area shape="rect" id="node31" href="$structxsd_1_1m2m_1_1AcpType.html" title="Class representation of xsd type m2m:acpType." alt="" coords="549,9,698,36"/>
+<area shape="rect" id="node32" href="$structxsd_1_1m2m_1_1ListOfM2MID.html" title="Class representation of xsd type m2m:listOfM2MID." alt="" coords="534,60,713,87"/>
+<area shape="rect" id="node33" title=" " alt="" coords="311,5031,349,5057"/>
+<area shape="rect" id="node34" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title="The concrete class that binds SimpleContentType to the type it represents." alt="" coords="832,4854,1063,4895"/>
+<area shape="rect" id="node35" href="$classxsd_1_1xs_1_1SimpleType.html" title="class template for xs:simpleType classes" alt="" coords="548,5105,699,5146"/>
+<area shape="rect" id="node36" href="$classxsd_1_1xs_1_1ConcreteSimpleContentType.html" title=" " alt="" coords="832,4919,1063,4961"/>
+<area shape="rect" id="node39" href="$structxsd_1_1m2m_1_1DeviceID.html" title="Class representation of xsd type m2m:deviceID." alt="" coords="870,5188,1025,5215"/>
+<area shape="rect" id="node40" href="$structxsd_1_1m2m_1_1ExternalID.html" title="Class representation of xsd type m2m:externalID." alt="" coords="866,5239,1029,5265"/>
+<area shape="rect" id="node41" href="$structxsd_1_1m2m_1_1ID.html" title="Class representation of xsd type m2m:ID." alt="" coords="893,5289,1002,5316"/>
+<area shape="rect" id="node42" href="$structxsd_1_1m2m_1_1Ipv4.html" title="Class representation of xsd type m2m:ipv4." alt="" coords="886,5340,1009,5367"/>
+<area shape="rect" id="node43" href="$structxsd_1_1m2m_1_1Ipv6.html" title="Class representation of xsd type m2m:ipv6." alt="" coords="886,4985,1009,5012"/>
+<area shape="rect" id="node44" href="$structxsd_1_1m2m_1_1NhURI.html" title="Class representation of xsd type m2m:nhURI." alt="" coords="879,5036,1015,5063"/>
+<area shape="rect" id="node45" href="$structxsd_1_1m2m_1_1NodeID.html" title="Class representation of xsd type m2m:nodeID." alt="" coords="876,5087,1019,5113"/>
+<area shape="rect" id="node46" href="$structxsd_1_1m2m_1_1RequestID.html" title="Class representation of xsd type m2m:requestID." alt="" coords="866,5137,1029,5164"/>
+<area shape="rect" id="node37" href="$structxsd_1_1m2m_1_1ChildResourceRef.html" title="Class representation of xsd type m2m:childResourceRef." alt="" coords="1155,4901,1366,4928"/>
+<area shape="rect" id="node38" href="$structxsd_1_1m2m_1_1MgmtLinkRef.html" title="Class representation of xsd type m2m:mgmtLinkRef." alt="" coords="1169,4952,1352,4979"/>
+<area shape="rect" id="node47" title=" " alt="" coords="5,2837,180,2878"/>
+<area shape="rect" id="node48" href="$classxsd_1_1xs_1_1List.html" title="The type used for XS lists." alt="" coords="261,2844,399,2871"/>
+<area shape="rect" id="node49" href="$classxsd_1_1XsdType.html" title="XSD Type base class, for anonymous marshalling/unmarshalling." alt="" coords="39,537,146,564"/>
+<area shape="rect" id="node50" href="$classxsd_1_1xs_1_1Any.html" title="xs:any implementation" alt="" coords="279,851,381,877"/>
+<area shape="rect" id="node51" href="$classxsd_1_1xs_1_1AnySimpleType.html" title="xs:anySimpleType implementation" alt="" coords="242,901,418,928"/>
+<area shape="rect" id="node52" href="$classxsd_1_1xs_1_1AnyType.html" title="xs:anyType implementation" alt="" coords="265,952,395,979"/>
+<area shape="rect" id="node53" href="$classxsd_1_1xs_1_1ComplexType.html" title="The base class of all XS complex types." alt="" coords="248,2793,412,2820"/>
+<area shape="rect" id="node54" href="$structxsd_1_1m2m_1_1AccessControlRule.html" title="Class representation of xsd type m2m:accessControlRule." alt="" coords="515,2571,731,2597"/>
+<area shape="rect" id="node55" href="$structxsd_1_1m2m_1_1AccessControlRule_1_1AccessControlContexts.html" title="Class representation of xsd type m2m:accessControlRule.accessControlContexts." alt="" coords="515,2622,731,2663"/>
+<area shape="rect" id="node56" href="$structxsd_1_1m2m_1_1AccessControlRule_1_1AccessControlContexts_1_1AccessControlIpAddresses.html" title="Class representation of xsd type m2m:accessControlRule.accessControlContexts.accessControlIpAddresses..." alt="" coords="515,2688,731,2744"/>
+<area shape="rect" id="node57" href="$structxsd_1_1m2m_1_1ActionStatus.html" title="Class representation of xsd type m2m:actionStatus." alt="" coords="535,2768,712,2795"/>
+<area shape="rect" id="node58" href="$structxsd_1_1m2m_1_1AggregatedNotification.html" title="Class representation of xsd type m2m:aggregatedNotification." alt="" coords="500,2819,747,2845"/>
+<area shape="rect" id="node59" href="$structxsd_1_1m2m_1_1AggregatedRequest.html" title="Class representation of xsd type m2m:aggregatedRequest." alt="" coords="512,2869,735,2896"/>
+<area shape="rect" id="node60" href="$structxsd_1_1m2m_1_1AggregatedRequest_1_1Request.html" title="Class representation of xsd type m2m:aggregatedRequest.request." alt="" coords="512,2921,735,2962"/>
+<area shape="rect" id="node61" href="$structxsd_1_1m2m_1_1AggregatedResponse.html" title="Class representation of xsd type m2m:aggregatedResponse." alt="" coords="507,2987,740,3013"/>
+<area shape="rect" id="node62" href="$structxsd_1_1m2m_1_1AnyArgType.html" title="Class representation of xsd type m2m:anyArgType." alt="" coords="537,3037,709,3064"/>
+<area shape="rect" id="node63" href="$structxsd_1_1m2m_1_1Attribute.html" title="Class representation of xsd type m2m:attribute." alt="" coords="547,3088,699,3115"/>
+<area shape="rect" id="node64" href="$structxsd_1_1m2m_1_1BackOffParameters.html" title="Class representation of xsd type m2m:backOffParameters." alt="" coords="512,3139,735,3165"/>
+<area shape="rect" id="node65" href="$structxsd_1_1m2m_1_1BackOffParameters_1_1BackOffParametersSet.html" title="Class representation of xsd type m2m:backOffParameters.backOffParametersSet." alt="" coords="512,3190,735,3231"/>
+<area shape="rect" id="node66" href="$structxsd_1_1m2m_1_1BatchNotify.html" title="Class representation of xsd type m2m:batchNotify." alt="" coords="537,3256,709,3283"/>
+<area shape="rect" id="node67" href="$structxsd_1_1m2m_1_1ContentRef.html" title="Class representation of xsd type m2m:contentRef." alt="" coords="539,3307,707,3333"/>
+<area shape="rect" id="node68" href="$structxsd_1_1m2m_1_1ContentRef_1_1URIReference__.html" title="Class representation of xsd type m2m:contentRef.URIReference." alt="" coords="539,3358,707,3399"/>
+<area shape="rect" id="node69" href="$structxsd_1_1m2m_1_1DataLink.html" title="Class representation of xsd type m2m:dataLink." alt="" coords="547,3424,700,3451"/>
+<area shape="rect" id="node70" href="$structxsd_1_1m2m_1_1DeletionContexts.html" title="Class representation of xsd type m2m:deletionContexts." alt="" coords="519,3475,727,3501"/>
+<area shape="rect" id="node71" href="$structxsd_1_1m2m_1_1DeliveryMetaData.html" title="Class representation of xsd type m2m:deliveryMetaData." alt="" coords="516,3525,731,3552"/>
+<area shape="rect" id="node72" href="$structxsd_1_1m2m_1_1DownloadArgsType.html" title="Class representation of xsd type m2m:downloadArgsType." alt="" coords="514,3576,733,3603"/>
+<area shape="rect" id="node73" href="$structxsd_1_1m2m_1_1DynAuthDasRequest.html" title="Class representation of xsd type m2m:dynAuthDasRequest." alt="" coords="509,3627,738,3653"/>
+<area shape="rect" id="node74" href="$structxsd_1_1m2m_1_1DynAuthDasRequest_1_1OriginatorIP.html" title="Class representation of xsd type m2m:dynAuthDasRequest.originatorIP." alt="" coords="509,3678,738,3719"/>
+<area shape="rect" id="node75" href="$structxsd_1_1m2m_1_1DynAuthDasResponse.html" title="Class representation of xsd type m2m:dynAuthDasResponse." alt="" coords="504,3744,743,3771"/>
+<area shape="rect" id="node76" href="$structxsd_1_1m2m_1_1DynAuthDasResponse_1_1DynamicACPInfo.html" title="Class representation of xsd type m2m:dynAuthDasResponse.dynamicACPInfo." alt="" coords="504,3795,743,3837"/>
+<area shape="rect" id="node77" href="$structxsd_1_1m2m_1_1DynAuthLocalTokenIdAssignments.html" title="Class representation of xsd type m2m:dynAuthLocalTokenIdAssignments." alt="" coords="512,3861,735,3902"/>
+<area shape="rect" id="node78" href="$structxsd_1_1m2m_1_1DynAuthLocalTokenIdAssignments_1_1LocalTokenIdAssignment.html" title="Class representation of xsd type m2m:dynAuthLocalTokenIdAssignments.localTokenIdAssignment." alt="" coords="480,3926,767,3967"/>
+<area shape="rect" id="node79" href="$structxsd_1_1m2m_1_1DynAuthTokenReqInfo.html" title="Class representation of xsd type m2m:dynAuthTokenReqInfo." alt="" coords="504,3992,743,4019"/>
+<area shape="rect" id="node80" href="$structxsd_1_1m2m_1_1DynAuthTokenReqInfo_1_1DasInfo.html" title="Class representation of xsd type m2m:dynAuthTokenReqInfo.dasInfo." alt="" coords="517,4043,730,4085"/>
+<area shape="rect" id="node81" href="$structxsd_1_1m2m_1_1DynAuthTokenSummary.html" title="Class representation of xsd type m2m:dynAuthTokenSummary." alt="" coords="498,4109,749,4136"/>
+<area shape="rect" id="node82" href="$structxsd_1_1m2m_1_1E2eSecInfo.html" title="Class representation of xsd type m2m:e2eSecInfo." alt="" coords="540,4160,707,4187"/>
+<area shape="rect" id="node83" href="$structxsd_1_1m2m_1_1EventNotificationCriteria.html" title="Class representation of xsd type m2m:eventNotificationCriteria." alt="" coords="519,4211,727,4253"/>
+<area shape="rect" id="node84" href="$structxsd_1_1m2m_1_1ExecReqArgsListType.html" title="Class representation of xsd type m2m:execReqArgsListType." alt="" coords="507,4277,740,4304"/>
+<area shape="rect" id="node85" href="$structxsd_1_1m2m_1_1FilterCriteria.html" title="Class representation of xsd type m2m:filterCriteria." alt="" coords="536,4328,711,4355"/>
+<area shape="rect" id="node86" href="$structxsd_1_1m2m_1_1ListOfChildResourceRef.html" title="Class representation of xsd type m2m:listOfChildResourceRef." alt="" coords="499,4379,747,4405"/>
+<area shape="rect" id="node87" href="$structxsd_1_1m2m_1_1ListOfDataLinks.html" title="Class representation of xsd type m2m:listOfDataLinks." alt="" coords="524,4429,723,4456"/>
+<area shape="rect" id="node88" href="$structxsd_1_1m2m_1_1LocationRegion.html" title="Class representation of xsd type m2m:locationRegion." alt="" coords="526,4480,721,4507"/>
+<area shape="rect" id="node89" href="$structxsd_1_1m2m_1_1MetaInformation.html" title="Class representation of xsd type m2m:metaInformation." alt="" coords="521,4531,725,4557"/>
+<area shape="rect" id="node90" href="$structxsd_1_1m2m_1_1MissingData.html" title="Class representation of xsd type m2m:missingData." alt="" coords="535,4581,711,4608"/>
+<area shape="rect" id="node91" href="$structxsd_1_1m2m_1_1Notification.html" title="Class representation of xsd type m2m:notification." alt="" coords="538,1211,709,1237"/>
+<area shape="rect" id="node93" href="$structxsd_1_1m2m_1_1Notification_1_1IPEDiscoveryRequest__.html" title="Class representation of xsd type m2m:notification.IPEDiscoveryRequest." alt="" coords="536,4633,711,4674"/>
+<area shape="rect" id="node94" href="$structxsd_1_1m2m_1_1Notification_1_1NotificationEvent.html" title="Class representation of xsd type m2m:notification.notificationEvent." alt="" coords="538,4698,709,4739"/>
+<area shape="rect" id="node95" href="$structxsd_1_1m2m_1_1Notification_1_1NotificationEvent_1_1OperationMonitor.html" title="Class representation of xsd type m2m:notification.notificationEvent.operationMonitor." alt="" coords="516,4764,731,4820"/>
+<area shape="rect" id="node96" href="$structxsd_1_1m2m_1_1OperationResult.html" title="Class representation of xsd type m2m:operationResult." alt="" coords="523,4844,723,4871"/>
+<area shape="rect" id="node97" href="$structxsd_1_1m2m_1_1OriginatorESPrimRandObject.html" title="Class representation of xsd type m2m:originatorESPrimRandObject." alt="" coords="520,825,727,866"/>
+<area shape="rect" id="node98" href="$structxsd_1_1m2m_1_1PrimitiveContent.html" title="Class representation of xsd type m2m:primitiveContent." alt="" coords="521,891,726,917"/>
+<area shape="rect" id="node99" href="$structxsd_1_1m2m_1_1RateLimit.html" title="Class representation of xsd type m2m:rateLimit." alt="" coords="544,941,703,968"/>
+<area shape="rect" id="node100" href="$structxsd_1_1m2m_1_1RebootArgsType.html" title="Class representation of xsd type m2m:rebootArgsType." alt="" coords="523,992,723,1019"/>
+<area shape="rect" id="node101" href="$structxsd_1_1m2m_1_1ReceiverESPrimRandObject.html" title="Class representation of xsd type m2m:receiverESPrimRandObject." alt="" coords="524,1043,723,1085"/>
+<area shape="rect" id="node102" href="$structxsd_1_1m2m_1_1RequestPrimitive.html" title="Class representation of xsd type m2m:requestPrimitive." alt="" coords="520,1109,727,1136"/>
+<area shape="rect" id="node103" href="$structxsd_1_1m2m_1_1ResetArgsType.html" title="Class representation of xsd type m2m:resetArgsType." alt="" coords="528,1160,719,1187"/>
+<area shape="rect" id="node104" href="$structxsd_1_1m2m_1_1Resource.html" title="Class representation of xsd type m2m:resource." alt="" coords="546,1632,701,1659"/>
+<area shape="rect" id="node151" href="$structxsd_1_1m2m_1_1ResourceWrapper.html" title="Class representation of xsd type m2m:resourceWrapper." alt="" coords="518,1261,729,1288"/>
+<area shape="rect" id="node152" href="$structxsd_1_1m2m_1_1ResponsePrimitive.html" title="Class representation of xsd type m2m:responsePrimitive." alt="" coords="515,1312,732,1339"/>
+<area shape="rect" id="node153" href="$structxsd_1_1m2m_1_1ResponseTypeInfo.html" title="Class representation of xsd type m2m:responseTypeInfo." alt="" coords="517,1363,730,1389"/>
+<area shape="rect" id="node154" href="$structxsd_1_1m2m_1_1ScheduleEntries.html" title="Class representation of xsd type m2m:scheduleEntries." alt="" coords="524,1413,723,1440"/>
+<area shape="rect" id="node155" href="$structxsd_1_1m2m_1_1SecurityInfo.html" title="Class representation of xsd type m2m:securityInfo." alt="" coords="537,1464,710,1491"/>
+<area shape="rect" id="node156" href="$structxsd_1_1m2m_1_1SetOfAcrs.html" title="Class representation of xsd type m2m:setOfAcrs." alt="" coords="544,1515,703,1541"/>
+<area shape="rect" id="node157" href="$structxsd_1_1m2m_1_1SoftwareInstallArgsType.html" title="Class representation of xsd type m2m:softwareInstallArgsType." alt="" coords="527,1566,720,1607"/>
+<area shape="rect" id="node158" href="$structxsd_1_1m2m_1_1SoftwareUninstallArgsType.html" title="Class representation of xsd type m2m:softwareUninstallArgsType." alt="" coords="518,1683,729,1725"/>
+<area shape="rect" id="node159" href="$structxsd_1_1m2m_1_1SoftwareUpdateArgsType.html" title="Class representation of xsd type m2m:softwareUpdateArgsType." alt="" coords="523,1749,723,1790"/>
+<area shape="rect" id="node160" href="$structxsd_1_1m2m_1_1TokenClaimSet.html" title="Class representation of xsd type m2m:tokenClaimSet." alt="" coords="528,1815,719,1841"/>
+<area shape="rect" id="node161" href="$structxsd_1_1m2m_1_1TokenPermission.html" title="Class representation of xsd type m2m:tokenPermission." alt="" coords="521,1865,725,1892"/>
+<area shape="rect" id="node162" href="$structxsd_1_1m2m_1_1TokenPermissions.html" title="Class representation of xsd type m2m:tokenPermissions." alt="" coords="518,1916,729,1943"/>
+<area shape="rect" id="node163" href="$structxsd_1_1m2m_1_1UploadArgsType.html" title="Class representation of xsd type m2m:uploadArgsType." alt="" coords="523,1967,723,1993"/>
+<area shape="rect" id="node164" href="$structxsd_1_1mtrsvc_1_1EvseControlSchedule.html" title="Class representation of xsd type mtrsvc:evseControlSchedule." alt="" coords="531,2018,715,2059"/>
+<area shape="rect" id="node165" href="$structxsd_1_1mtrsvc_1_1MeterControlSchedule.html" title="Class representation of xsd type mtrsvc:meterControlSchedule." alt="" coords="528,2083,719,2125"/>
+<area shape="rect" id="node166" href="$structxsd_1_1mtrsvc_1_1MeterRead.html" title="Class representation of xsd type mtrsvc:meterRead." alt="" coords="535,2149,712,2176"/>
+<area shape="rect" id="node167" href="$structxsd_1_1mtrsvc_1_1MeterReadSchedule.html" title="Class representation of xsd type mtrsvc:meterReadSchedule." alt="" coords="505,2200,741,2227"/>
+<area shape="rect" id="node168" href="$structxsd_1_1mtrsvc_1_1MeterServicePolicy.html" title="Class representation of xsd type mtrsvc:meterServicePolicy." alt="" coords="527,2251,719,2293"/>
+<area shape="rect" id="node169" href="$structxsd_1_1mtrsvc_1_1MeterSvcData.html" title="Class representation of xsd type mtrsvc:meterSvcData." alt="" coords="524,2317,723,2344"/>
+<area shape="rect" id="node170" href="$structxsd_1_1mtrsvc_1_1PowerQualityData.html" title="Class representation of xsd type mtrsvc:powerQualityData." alt="" coords="511,2368,735,2395"/>
+<area shape="rect" id="node171" href="$structxsd_1_1mtrsvc_1_1ScheduleInterval.html" title="Class representation of xsd type mtrsvc:scheduleInterval." alt="" coords="516,2419,731,2445"/>
+<area shape="rect" id="node172" href="$structxsd_1_1mtrsvc_1_1SummationData.html" title="Class representation of xsd type mtrsvc:summationData." alt="" coords="517,2469,729,2496"/>
+<area shape="rect" id="node173" href="$structxsd_1_1mtrsvc_1_1TimeSchedule.html" title="Class representation of xsd type mtrsvc:timeSchedule." alt="" coords="525,2520,722,2547"/>
+<area shape="rect" id="node174" href="$classxsd_1_1xs_1_1SimpleContentType.html" title="The base class of all XSD complex types composed of a xs:simpleContent." alt="" coords="522,4895,725,4921"/>
+<area shape="rect" id="node92" href="$classm2m_1_1Notification.html" title="A representation of a oneM2M notification received by the AE." alt="" coords="877,1211,1017,1237"/>
+<area shape="rect" id="node105" href="$structxsd_1_1m2m_1_1AnnounceableSubordinateResource.html" title="Class representation of xsd type m2m:announceableSubordinateResource." alt="" coords="815,1709,1080,1750"/>
+<area shape="rect" id="node108" href="$structxsd_1_1m2m_1_1AnnouncedResource.html" title="Class representation of xsd type m2m:announcedResource." alt="" coords="834,1868,1061,1895"/>
+<area shape="rect" id="node124" href="$structxsd_1_1m2m_1_1AnnouncedSubordinateResource.html" title="Class representation of xsd type m2m:announcedSubordinateResource." alt="" coords="825,1490,1070,1531"/>
+<area shape="rect" id="node127" href="$structxsd_1_1m2m_1_1CSEBase.html" title="Class representation of xsd type m2m:CSEBase." alt="" coords="871,1556,1023,1583"/>
+<area shape="rect" id="node128" href="$structxsd_1_1m2m_1_1RegularResource.html" title="Class representation of xsd type m2m:regularResource." alt="" coords="845,1607,1050,1633"/>
+<area shape="rect" id="node150" href="$structxsd_1_1m2m_1_1SubordinateResource.html" title="Class representation of xsd type m2m:subordinateResource." alt="" coords="831,1657,1064,1684"/>
+<area shape="rect" id="node106" href="$structxsd_1_1m2m_1_1AccessControlPolicy.html" title="Class representation of xsd type m2m:accessControlPolicy." alt="" coords="1147,1665,1374,1692"/>
+<area shape="rect" id="node107" href="$structxsd_1_1m2m_1_1ContentInstance.html" title="Class representation of xsd type m2m:contentInstance." alt="" coords="1160,1716,1361,1743"/>
+<area shape="rect" id="node109" href="$structxsd_1_1m2m_1_1AEAnnc.html" title="Class representation of xsd type m2m:AEAnnc." alt="" coords="1189,1969,1333,1996"/>
+<area shape="rect" id="node110" href="$structxsd_1_1m2m_1_1AnnouncedMgmtResource.html" title="Class representation of xsd type m2m:announcedMgmtResource." alt="" coords="1128,2020,1393,2047"/>
+<area shape="rect" id="node120" href="$structxsd_1_1m2m_1_1ContainerAnnc.html" title="Class representation of xsd type m2m:containerAnnc." alt="" coords="1165,1767,1356,1793"/>
+<area shape="rect" id="node121" href="$structxsd_1_1m2m_1_1GroupAnnc.html" title="Class representation of xsd type m2m:groupAnnc." alt="" coords="1177,1817,1344,1844"/>
+<area shape="rect" id="node122" href="$structxsd_1_1m2m_1_1NodeAnnc.html" title="Class representation of xsd type m2m:nodeAnnc." alt="" coords="1180,1868,1341,1895"/>
+<area shape="rect" id="node123" href="$structxsd_1_1m2m_1_1RemoteCSEAnnc.html" title="Class representation of xsd type m2m:remoteCSEAnnc." alt="" coords="1159,1919,1362,1945"/>
+<area shape="rect" id="node111" href="$structxsd_1_1m2m_1_1ApnConnectionProfileExtAnnc.html" title="Class representation of xsd type m2m:apnConnectionProfileExtAnnc." alt="" coords="1452,2122,1687,2163"/>
+<area shape="rect" id="node112" href="$structxsd_1_1m2m_1_1AreaNwkDeviceInfoAnnc.html" title="Class representation of xsd type m2m:areaNwkDeviceInfoAnnc." alt="" coords="1441,2188,1697,2215"/>
+<area shape="rect" id="node113" href="$structxsd_1_1m2m_1_1AreaNwkInfoAnnc.html" title="Class representation of xsd type m2m:areaNwkInfoAnnc." alt="" coords="1464,2239,1675,2265"/>
+<area shape="rect" id="node114" href="$structxsd_1_1m2m_1_1BatteryAnnc.html" title="Class representation of xsd type m2m:batteryAnnc." alt="" coords="1482,1801,1657,1828"/>
+<area shape="rect" id="node115" href="$structxsd_1_1m2m_1_1ConnectivityMonitoringExtAnnc.html" title="Class representation of xsd type m2m:connectivityMonitoringExtAnnc." alt="" coords="1446,1853,1693,1894"/>
+<area shape="rect" id="node116" href="$structxsd_1_1m2m_1_1DeviceInfoAnnc.html" title="Class representation of xsd type m2m:deviceInfoAnnc." alt="" coords="1471,1919,1668,1945"/>
+<area shape="rect" id="node117" href="$structxsd_1_1m2m_1_1FirmwareAnnc.html" title="Class representation of xsd type m2m:firmwareAnnc." alt="" coords="1476,1969,1663,1996"/>
+<area shape="rect" id="node118" href="$structxsd_1_1m2m_1_1McuFirmwareAnnc.html" title="Class representation of xsd type m2m:mcuFirmwareAnnc." alt="" coords="1462,2020,1677,2047"/>
+<area shape="rect" id="node119" href="$structxsd_1_1m2m_1_1ModuleInfoExtAnnc.html" title="Class representation of xsd type m2m:moduleInfoExtAnnc." alt="" coords="1459,2071,1680,2097"/>
+<area shape="rect" id="node125" href="$structxsd_1_1m2m_1_1AccessControlPolicyAnnc.html" title="Class representation of xsd type m2m:accessControlPolicyAnnc." alt="" coords="1131,1453,1390,1480"/>
+<area shape="rect" id="node126" href="$structxsd_1_1m2m_1_1ContentInstanceAnnc.html" title="Class representation of xsd type m2m:contentInstanceAnnc." alt="" coords="1144,1504,1377,1531"/>
+<area shape="rect" id="node129" href="$structxsd_1_1m2m_1_1AnnounceableResource.html" title="Class representation of xsd type m2m:announceableResource." alt="" coords="1137,1560,1384,1587"/>
+<area shape="rect" id="node149" href="$structxsd_1_1m2m_1_1Subscription.html" title="Class representation of xsd type m2m:subscription." alt="" coords="1173,1611,1348,1637"/>
+<area shape="rect" id="node130" href="$structxsd_1_1m2m_1_1AE.html" title="Class representation of xsd type m2m:AE." alt="" coords="1513,1433,1625,1460"/>
+<area shape="rect" id="node131" href="$structxsd_1_1m2m_1_1Container.html" title="Class representation of xsd type m2m:container." alt="" coords="1490,1484,1649,1511"/>
+<area shape="rect" id="node132" href="$structxsd_1_1m2m_1_1Group.html" title="Class representation of xsd type m2m:group." alt="" coords="1502,1535,1637,1561"/>
+<area shape="rect" id="node133" href="$structxsd_1_1m2m_1_1MgmtResource.html" title="Class representation of xsd type m2m:mgmtResource." alt="" coords="1473,1585,1666,1612"/>
+<area shape="rect" id="node147" href="$structxsd_1_1m2m_1_1Node.html" title="Class representation of xsd type m2m:node." alt="" coords="1505,1636,1634,1663"/>
+<area shape="rect" id="node148" href="$structxsd_1_1m2m_1_1RemoteCSE.html" title="Class representation of xsd type m2m:remoteCSE." alt="" coords="1484,1687,1655,1713"/>
+<area shape="rect" id="node134" href="$structxsd_1_1m2m_1_1ActiveCmdhPolicy.html" title="Class representation of xsd type m2m:activeCmdhPolicy." alt="" coords="1773,1265,1986,1292"/>
+<area shape="rect" id="node135" href="$structxsd_1_1m2m_1_1ApnConnectionProfileExt.html" title="Class representation of xsd type m2m:apnConnectionProfileExt." alt="" coords="1751,1316,2007,1343"/>
+<area shape="rect" id="node136" href="$structxsd_1_1m2m_1_1AreaNwkDeviceInfo.html" title="Class representation of xsd type m2m:areaNwkDeviceInfo." alt="" coords="1767,1367,1991,1393"/>
+<area shape="rect" id="node137" href="$structxsd_1_1m2m_1_1AreaNwkInfo.html" title="Class representation of xsd type m2m:areaNwkInfo." alt="" coords="1790,1417,1969,1444"/>
+<area shape="rect" id="node138" href="$structxsd_1_1m2m_1_1Battery.html" title="Class representation of xsd type m2m:battery." alt="" coords="1808,1468,1951,1495"/>
+<area shape="rect" id="node139" href="$structxsd_1_1m2m_1_1CmdhNetworkAccessRules.html" title="Class representation of xsd type m2m:cmdhNetworkAccessRules." alt="" coords="1763,1519,1996,1561"/>
+<area shape="rect" id="node140" href="$structxsd_1_1m2m_1_1CmdhNwAccessRule.html" title="Class representation of xsd type m2m:cmdhNwAccessRule." alt="" coords="1765,1585,1993,1612"/>
+<area shape="rect" id="node141" href="$structxsd_1_1m2m_1_1CmdhPolicy.html" title="Class representation of xsd type m2m:cmdhPolicy." alt="" coords="1793,1636,1965,1663"/>
+<area shape="rect" id="node142" href="$structxsd_1_1m2m_1_1ConnectivityMonitoringExt.html" title="Class representation of xsd type m2m:connectivityMonitoringExt." alt="" coords="1745,1687,2013,1713"/>
+<area shape="rect" id="node143" href="$structxsd_1_1m2m_1_1DeviceInfo.html" title="Class representation of xsd type m2m:deviceInfo." alt="" coords="1797,1737,1962,1764"/>
+<area shape="rect" id="node144" href="$structxsd_1_1m2m_1_1Firmware.html" title="Class representation of xsd type m2m:firmware." alt="" coords="1802,1788,1957,1815"/>
+<area shape="rect" id="node145" href="$structxsd_1_1m2m_1_1McuFirmware.html" title="Class representation of xsd type m2m:mcuFirmware." alt="" coords="1788,1839,1971,1865"/>
+<area shape="rect" id="node146" href="$structxsd_1_1m2m_1_1ModuleInfoExt.html" title="Class representation of xsd type m2m:moduleInfoExt." alt="" coords="1785,1889,1974,1916"/>
 </map>
